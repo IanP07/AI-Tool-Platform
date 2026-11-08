@@ -1,32 +1,30 @@
-# React + TypeScript + Vite
+# Toolkit frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React + TypeScript + Vite frontend for discovering tools.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```sh
+npm ci
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Run `npm run build` for the TypeScript check and production build.
+
+## Pages
+
+- `#/`: directory with search, category/pricing filters, and sorting
+- `#/tool/notion` (and other catalog IDs): overview, features, rating, pricing, and related tools
+- `#/chat`: task recommendation demo with linked results and follow-up messages
+- `#/saved`: bookmarked tools, persisted locally when browser storage is available
+
+Frontend only. `src/data.ts` contains illustrative ratings, review counts, and prices. Chat uses labeled keyword matching; no AI or backend API calls are made. Google Fonts supplies optional typefaces, with local fallbacks.
+
+Research: [tool-directory-research.md](../../docs/tool-directory-research.md).
+
+## Manual checks
+
+1. Search, filter by category and price, and sort. Try an unmatched search and clear filters.
+2. Open a tool and a related tool. Refresh the detail URL and use browser back.
+3. Save a tool, open Saved, and reload. Unsave it to check the empty state.
+4. Try a suggested chat task, follow up with a free-plan constraint, and open a recommendation. Return to chat and start a new conversation.
+5. Submit an unrelated task to see the no-match explanation. Empty messages cannot be sent.
+6. Check mobile widths, keyboard navigation, and an invalid tool URL.
