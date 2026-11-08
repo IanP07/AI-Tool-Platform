@@ -38,7 +38,7 @@ mysql-connector-python==9.5.0
 networkx==3.3
 numpy==1.26.4
 packaging==24.0
-pillow==10.3.0
+Pillow>=11.0.0
 proto-plus==1.26.1
 protobuf==5.29.5
 pyasn1==0.6.1
