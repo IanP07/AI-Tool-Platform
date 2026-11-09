@@ -3,6 +3,7 @@ from datetime import date
 
 from dotenv import load_dotenv
 from fastapi import Body, FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 from openrouter import OpenRouter
 from pydantic import BaseModel, Field, ConfigDict
 import os
@@ -14,6 +15,15 @@ load_dotenv(Path(__file__).resolve().with_name(".env"))
 from db import engine
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://ai-tool-platform-production.up.railway.app",
+        *[origin.strip().rstrip("/") for origin in os.getenv("FRONTEND_ORIGINS", "").split(",") if origin.strip()],
+    ],
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type"],
+)
 
 
 class ReviewCreate(BaseModel):

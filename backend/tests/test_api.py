@@ -41,6 +41,22 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(self.client.get('/tool/999').status_code, 404)
         self.assertEqual(self.client.get('/tools?amount=101').status_code, 422)
 
+    def test_frontend_cors(self):
+        origin = 'https://ai-tool-platform-production.up.railway.app'
+        response = self.client.get('/tools', headers={'Origin': origin})
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.headers['access-control-allow-origin'], origin)
+        for path in ('/prompt', '/add-review'):
+            response = self.client.options(path, headers={
+                'Origin': origin,
+                'Access-Control-Request-Method': 'POST',
+                'Access-Control-Request-Headers': 'content-type',
+            })
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.headers['access-control-allow-origin'], origin)
+        response = self.client.get('/tools', headers={'Origin': 'https://untrusted.example'})
+        self.assertNotIn('access-control-allow-origin', response.headers)
+
     def test_review_write_read_and_rating(self):
         for rating in (3, 5):
             response = self.client.post('/add-review', json={'tool_id': 1, 'rating': rating, 'title': ' Useful ', 'description': 'Worked for my task.'})

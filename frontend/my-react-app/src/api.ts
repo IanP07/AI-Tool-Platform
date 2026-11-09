@@ -2,7 +2,9 @@ export type Tool = { id: string; name: string; mark: string; color: string; cate
 export type Review = { id: number; tool_id: number; rating: number; title: string; date: string; description: string }
 const base = (import.meta.env.BACKEND_BASE_URL || '/api').replace(/\/$/, '')
 export async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(`${base}${path}`, { ...init, headers: { 'Content-Type': 'application/json', ...init?.headers }, signal: init?.signal ?? AbortSignal.timeout(90000) })
+  const headers = new Headers(init?.headers)
+  if (init?.body != null && !headers.has('Content-Type')) headers.set('Content-Type', 'application/json')
+  const response = await fetch(`${base}${path}`, { ...init, headers, signal: init?.signal ?? AbortSignal.timeout(90000) })
   if (!response.ok) {
     const error = await response.json().catch(() => null)
     throw new Error(typeof error?.detail === 'string' ? error.detail : `Request failed (${response.status}). Please try again.`)

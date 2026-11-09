@@ -24,10 +24,13 @@ test('catalog pagination, chat and reviews use backend contracts', async () => {
   try {
     assert.equal((await api.getTools()).length, 2)
     assert.equal(calls[1].url, '/api/tools?amount=100&offset=1')
+    assert.equal(calls[1].init.headers.has('Content-Type'), false)
     assert.equal((await api.recommend([{ role: 'user', text: 'Research' }])).results[0].id, '42')
     assert.deepEqual(JSON.parse(calls.at(-1).init.body), { messages: [{ role: 'user', content: 'Research' }] })
+    assert.equal(calls.at(-1).init.headers.get('Content-Type'), 'application/json')
     await api.addReview('42', { rating: 5, title: 'Useful', description: 'Worked' })
     assert.equal(JSON.parse(calls.at(-1).init.body).tool_id, 42)
+    assert.equal(calls.at(-1).init.headers.get('Content-Type'), 'application/json')
     await api.getTool('42'); assert.equal(calls.at(-1).url, '/api/tool/42')
   } finally { globalThis.fetch = original }
 })
