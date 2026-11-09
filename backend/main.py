@@ -8,6 +8,8 @@ from pydantic import BaseModel, Field, ConfigDict
 import os
 import json
 from sqlalchemy import text
+from requests.exceptions import RequestException
+from jev.reviews import analyze_review
 
 load_dotenv(Path(__file__).resolve().with_name(".env"))
 
@@ -192,7 +194,7 @@ async def get_tool(id: int):
         return dict(tool)
 
 @app.post("/add-review", status_code=201)
-async def add_review(review: ReviewCreate):
+def add_review(review: ReviewCreate):
     with engine.begin() as conn:
         tool = conn.execute(
             text("SELECT id FROM tool WHERE id = :tool_id"),
@@ -201,13 +203,18 @@ async def add_review(review: ReviewCreate):
         if tool is None:
             raise HTTPException(status_code=404, detail="Tool not found")
 
+        try:
+            scores = analyze_review(f"{review.title}\n{review.description}")
+        except (RequestException, ValueError, KeyError, TypeError):
+            raise HTTPException(status_code=502, detail="Could not analyze review. Please try again.") from None
+
         result = conn.execute(
             text("""
-                INSERT INTO review (tool_id, rating, title, date, description)
-                VALUES (:tool_id, :rating, :title, :date, :description)
-                RETURNING id, tool_id, rating, title, date, description
+                INSERT INTO review (tool_id, rating, title, date, description, effectiveness, ease_of_use, price)
+                VALUES (:tool_id, :rating, :title, :date, :description, :effectiveness, :ease_of_use, :price)
+                RETURNING id, tool_id, rating, title, date, description, effectiveness, ease_of_use, price
             """),
-            {**review.model_dump(), "date": date.today()},
+            {**review.model_dump(), "date": date.today(), **scores},
         )
         saved_review = dict(result.mappings().one())
 

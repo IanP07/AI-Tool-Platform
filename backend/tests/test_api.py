@@ -12,6 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine, text
 from sqlalchemy.pool import StaticPool
+from requests.exceptions import RequestException
 import main
 
 
@@ -22,12 +23,25 @@ class ApiTests(unittest.TestCase):
         self.db_patch.start()
         with self.engine.begin() as conn:
             conn.execute(text('CREATE TABLE tool (id INTEGER PRIMARY KEY, name TEXT, price TEXT, tags TEXT, url TEXT, short_description TEXT, description TEXT, advantages TEXT, disadvantages TEXT)'))
-            conn.execute(text('CREATE TABLE review (id INTEGER PRIMARY KEY, tool_id INTEGER, rating INTEGER, title TEXT, date DATE, description TEXT)'))
+            conn.execute(text('CREATE TABLE review (id INTEGER PRIMARY KEY, tool_id INTEGER, rating INTEGER, title TEXT, date DATE, description TEXT, effectiveness REAL, ease_of_use REAL, price TEXT)'))
             conn.execute(text("INSERT INTO tool (id, name, price, tags) VALUES (1, 'Alpha', 'Free; USD 10/month', '[\"research\"]'), (2, 'Beta', 'Contact sales', '[]')"))
         self.client = TestClient(main.app)
+        self.key_patch = patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-only'})
+        self.key_patch.start()
+        self.jev_patch = patch('jev.reviews.requests.post')
+        self.jev = self.jev_patch.start()
+        self.jev.return_value.json.return_value = {'answers': {
+            'effectiveness': {'score': 6.92},
+            'ease_of_use': {'score': 3.76},
+            'effectiveness_mentioned': {'noul': 0.99},
+            'ease_of_use_mentioned': {'noul': 0.99},
+            'price': {'choice': 'none'},
+        }}
 
     def tearDown(self):
         self.client.close()
+        self.jev_patch.stop()
+        self.key_patch.stop()
         self.db_patch.stop()
         self.engine.dispose()
 
@@ -46,19 +60,56 @@ class ApiTests(unittest.TestCase):
             response = self.client.post('/add-review', json={'tool_id': 1, 'rating': rating, 'title': ' Useful ', 'description': 'Worked for my task.'})
             self.assertEqual(response.status_code, 201)
             self.assertEqual(response.json()['title'], 'Useful')
+            self.assertEqual(response.json()['effectiveness'], 7.92)
+            self.assertEqual(response.json()['ease_of_use'], 4.76)
         self.assertEqual(len(self.client.get('/get-reviews/1').json()), 2)
         detail = self.client.get('/tool/1').json()
         self.assertEqual(detail['id'], 1)
         self.assertEqual(sorted(r['rating'] for r in self.client.get('/get-reviews/1').json()), [3, 5])
         for changes, status in [({'rating': 6}, 422), ({'title': '   '}, 422), ({'tool_id': 999}, 404)]:
+            self.jev.reset_mock()
             self.assertEqual(self.client.post('/add-review', json={'tool_id': 1, 'rating': 5, 'title': 'Title', 'description': 'Text', **changes}).status_code, status)
+            self.jev.assert_not_called()
+
+    def test_review_scores_and_price_are_persisted(self):
+        self.jev.return_value.json.return_value['answers']['price']['choice'] = 'sentence_1'
+        response = self.client.post('/add-review', json={
+            'tool_id': 1, 'rating': 4, 'title': 'Useful.',
+            'description': 'It costs $20 per month.',
+        })
+        self.assertEqual(response.status_code, 201)
+        saved = self.client.get('/get-reviews/1').json()[0]
+        self.assertEqual(saved['effectiveness'], 7.92)
+        self.assertEqual(saved['ease_of_use'], 4.76)
+        self.assertEqual(saved['price'], 'It costs $20 per month.')
+        self.assertEqual(self.jev.call_args.kwargs['json']['state']['review'], 'Useful.\nIt costs $20 per month.')
+
+    def test_review_missing_evidence_saves_nulls(self):
+        answers = self.jev.return_value.json.return_value['answers']
+        answers['effectiveness_mentioned']['noul'] = 0.01
+        answers['ease_of_use_mentioned']['noul'] = 0.01
+        response = self.client.post('/add-review', json={
+            'tool_id': 1, 'rating': 3, 'title': 'Comment', 'description': 'Just signed up.',
+        })
+        self.assertEqual(response.status_code, 201)
+        saved = self.client.get('/get-reviews/1').json()[0]
+        for field in ('effectiveness', 'ease_of_use', 'price'):
+            self.assertIsNone(saved[field])
+
+    def test_jev_failure_does_not_save_review(self):
+        self.jev.side_effect = RequestException('JEV unavailable')
+        response = self.client.post('/add-review', json={
+            'tool_id': 1, 'rating': 3, 'title': 'Comment', 'description': 'Works well.',
+        })
+        self.assertEqual(response.status_code, 502)
+        self.assertEqual(self.client.get('/get-reviews/1').json(), [])
 
     def mock_response(self, content, status='completed'):
         return SimpleNamespace(status=status, error=None, output=[SimpleNamespace(type='message', content=[SimpleNamespace(type='output_text', text=content)])])
 
     def test_prompt_uses_history_and_catalog_ids(self):
         with self.engine.begin() as conn:
-            conn.execute(text("INSERT INTO review VALUES (1, 1, 5, 'Useful', '2026-11-08', 'Saved me time')"))
+            conn.execute(text("INSERT INTO review (id, tool_id, rating, title, date, description) VALUES (1, 1, 5, 'Useful', '2026-11-08', 'Saved me time')"))
         messages = [{'role': 'user', 'content': 'Research'}, {'role': 'assistant', 'content': 'What budget?'}, {'role': 'user', 'content': 'Free'}]
         with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-only'}), patch.object(main, 'OpenRouter') as sdk:
             send = sdk.return_value.__enter__.return_value.responses.send
@@ -72,7 +123,7 @@ class ApiTests(unittest.TestCase):
             self.assertEqual(payload['input'][1:], messages)
             context = json.loads(payload['input'][0]['content'].split('\n', 1)[1])
             self.assertEqual([tool['name'] for tool in context['tools']], ['Alpha', 'Beta'])
-            self.assertEqual(context['reviews'], [{'id': 1, 'tool_id': 1, 'rating': 5, 'title': 'Useful', 'date': '2026-11-08', 'description': 'Saved me time'}])
+            self.assertEqual(context['reviews'], [{'id': 1, 'tool_id': 1, 'rating': 5, 'title': 'Useful', 'date': '2026-11-08', 'description': 'Saved me time', 'effectiveness': None, 'ease_of_use': None, 'price': None}])
             self.assertIn('tool_ids', payload['instructions'])
             self.assertEqual(payload['text']['format_']['type'], 'json_schema')
             self.assertTrue(payload['text']['format_']['strict'])
