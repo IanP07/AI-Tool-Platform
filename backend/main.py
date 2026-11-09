@@ -220,6 +220,19 @@ def add_review(review: ReviewCreate):
 
     return saved_review
 
+@app.post("/update-tool-scores")
+def update_tool_scores():
+    with engine.begin() as conn:
+        result = conn.execute(text("""
+            UPDATE tool
+            SET (effectiveness, ease_of_use) = (
+                SELECT AVG(effectiveness), AVG(ease_of_use)
+                FROM review WHERE review.tool_id = tool.id
+            )
+        """))
+        return {"updated": result.rowcount}
+
+
 @app.get("/get-reviews/{tool_id}")
 def get_reviews(tool_id: int):
     with engine.connect() as conn:

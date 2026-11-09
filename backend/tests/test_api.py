@@ -22,7 +22,7 @@ class ApiTests(unittest.TestCase):
         self.db_patch = patch.object(main, 'engine', self.engine)
         self.db_patch.start()
         with self.engine.begin() as conn:
-            conn.execute(text('CREATE TABLE tool (id INTEGER PRIMARY KEY, name TEXT, price TEXT, tags TEXT, url TEXT, short_description TEXT, description TEXT, advantages TEXT, disadvantages TEXT)'))
+            conn.execute(text('CREATE TABLE tool (id INTEGER PRIMARY KEY, name TEXT, price TEXT, tags TEXT, url TEXT, short_description TEXT, description TEXT, advantages TEXT, disadvantages TEXT, effectiveness REAL, ease_of_use REAL)'))
             conn.execute(text('CREATE TABLE review (id INTEGER PRIMARY KEY, tool_id INTEGER, rating INTEGER, title TEXT, date DATE, description TEXT, effectiveness REAL, ease_of_use REAL, price TEXT)'))
             conn.execute(text("INSERT INTO tool (id, name, price, tags) VALUES (1, 'Alpha', 'Free; USD 10/month', '[\"research\"]'), (2, 'Beta', 'Contact sales', '[]')"))
         self.client = TestClient(main.app)
@@ -103,6 +103,24 @@ class ApiTests(unittest.TestCase):
         })
         self.assertEqual(response.status_code, 502)
         self.assertEqual(self.client.get('/get-reviews/1').json(), [])
+
+    def test_update_tool_scores(self):
+        with self.engine.begin() as conn:
+            conn.execute(text('UPDATE tool SET effectiveness = 9, ease_of_use = 9'))
+            conn.execute(text('''
+                INSERT INTO review (tool_id, effectiveness, ease_of_use)
+                VALUES (1, 8, 2), (1, 4, NULL), (1, NULL, 9)
+            '''))
+        response = self.client.post('/update-tool-scores')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json(), {'updated': 2})
+        tool = self.client.get('/tool/1').json()
+        self.assertEqual(tool['effectiveness'], 6)
+        self.assertEqual(tool['ease_of_use'], 5.5)
+        unrated = self.client.get('/tool/2').json()
+        self.assertIsNone(unrated['effectiveness'])
+        self.assertIsNone(unrated['ease_of_use'])
+        self.jev.assert_not_called()
 
     def mock_response(self, content, status='completed'):
         return SimpleNamespace(status=status, error=None, output=[SimpleNamespace(type='message', content=[SimpleNamespace(type='output_text', text=content)])])

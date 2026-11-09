@@ -36,6 +36,7 @@ For production, route `/api/*` to FastAPI with the prefix removed, or set `VITE_
 - `GET /tool/{id}`: tool details from the database. The frontend displays rating aggregates if returned; otherwise it shows unrated.
 - `GET /get-reviews/{tool_id}`: reviews for the selected tool.
 - `POST /add-review`: `{tool_id, rating, title, description}`. Calls JEV and returns the saved review including `effectiveness`, `ease_of_use`, and `price`; the frontend refreshes the tool's rating.
+- `POST /update-tool-scores`: no body. Updates every tool's `effectiveness` and `ease_of_use` to its review averages and returns `{updated: count}`. Null review scores are ignored; tools with no scores get null. Run `migrations/002_tool_scores.sql` against PostgreSQL before using this route.
 - `POST /prompt`: `{messages: [{role: "user" | "assistant", content: "..."}]}`. Returns `{text, tools}`. Replaces the old hardcoded GET placeholder. The model receives catalog facts and conversation context; unknown recommended IDs are rejected. Missing configuration retains the original 500 response; malformed recommendation output returns 502. The frontend shows errors and a retry action, without demo recommendations.
 
 Prices remain the database's full text, including currency and billing qualifiers. The lowest-price sort extracts USD amounts where present and places nonnumeric/other-currency entries last rather than doing implicit currency conversions. Tags may be native arrays or JSON-encoded CSV strings.
