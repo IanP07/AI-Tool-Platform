@@ -154,7 +154,7 @@ def func(prompt=Body(...)):
 
 @app.get("/tools")
 async def get_tools(
-    amount: int = Query(24, ge=1, le=100),
+    limit: int = Query(24, ge=1, le=100),
     offset: int = Query(0, ge=0)
 ):
     with engine.connect() as conn:
@@ -162,9 +162,9 @@ async def get_tools(
             text("""
                 SELECT * FROM tool
                 ORDER BY name, id
-                LIMIT :amount OFFSET :offset
+                LIMIT :limit OFFSET :offset
             """),
-            {"amount": amount, "offset": offset}
+            {"limit": limit, "offset": offset}
         ) 
 
         rows = result.mappings().all()
@@ -176,7 +176,7 @@ async def get_tools(
         return {
             "tools": tools,
             "count": len(tools),
-            "hasMore": len(tools) == amount 
+            "hasMore": len(tools) == limit 
         }
 
 @app.get("/tool/{id}")

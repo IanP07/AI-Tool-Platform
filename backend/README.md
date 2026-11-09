@@ -30,7 +30,7 @@ For production, route `/api/*` to FastAPI with the prefix removed, or set `VITE_
 
 ## Route contracts
 
-- `GET /tools?amount=100&offset=0`: catalog page, count, and `hasMore`. The frontend follows pages before applying search, category, saved, pricing, and sort controls.
+- `GET /tools?limit=100&offset=0`: catalog page, count, and `hasMore`. The frontend follows pages before applying search, category, saved, pricing, and sort controls.
 - `GET /tool/{id}`: tool details from the database. The frontend displays rating aggregates if returned; otherwise it shows unrated.
 - `GET /get-reviews/{tool_id}`: reviews for the selected tool.
 - `POST /add-review`: `{tool_id, rating, title, description}`. Returns the saved review; the frontend refreshes the tool's rating.

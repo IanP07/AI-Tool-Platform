@@ -32,14 +32,14 @@ class ApiTests(unittest.TestCase):
         self.engine.dispose()
 
     def test_pagination_and_detail(self):
-        first = self.client.get('/tools?amount=1').json()
+        first = self.client.get('/tools?limit=1').json()
         self.assertEqual(first['tools'][0]['id'], 1)
         self.assertTrue(first['hasMore'])
-        self.assertEqual(self.client.get('/tools?amount=1&offset=1').json()['tools'][0]['id'], 2)
-        self.assertFalse(self.client.get('/tools?amount=1&offset=2').json()['hasMore'])
+        self.assertEqual(self.client.get('/tools?limit=1&offset=1').json()['tools'][0]['id'], 2)
+        self.assertFalse(self.client.get('/tools?limit=1&offset=2').json()['hasMore'])
         self.assertEqual(self.client.get('/tool/1').json()['id'], 1)
         self.assertEqual(self.client.get('/tool/999').status_code, 404)
-        self.assertEqual(self.client.get('/tools?amount=101').status_code, 422)
+        self.assertEqual(self.client.get('/tools?limit=101').status_code, 422)
 
     def test_frontend_cors(self):
         origin = 'https://ai-tool-platform-production.up.railway.app'

@@ -26,7 +26,7 @@ function safeUrl(value: unknown) {
 export async function getTools(signal?: AbortSignal): Promise<Tool[]> {
   const result: Tool[] = []
   for (let offset = 0; ; ) {
-    const page = await request<{ tools: Record<string, unknown>[]; hasMore: boolean }>(`/tools?amount=100&offset=${offset}`, { signal })
+    const page = await request<{ tools: Record<string, unknown>[]; hasMore: boolean }>(`/tools?limit=100&offset=${offset}`, { signal })
     result.push(...page.tools.map(normalizeTool))
     if (!page.hasMore || !page.tools.length) return result
     offset += page.tools.length
