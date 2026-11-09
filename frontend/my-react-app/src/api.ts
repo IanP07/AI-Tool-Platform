@@ -1,3 +1,4 @@
+import toolScoreOverrides from './toolScoreOverrides.json'
 export type Tool = { id: string; name: string; mark: string; color: string; category: string; tagline: string; description: string; rating: number; reviews: number; easeOfUse: number | null; effectiveness: number | null; price: number; priceLabel: string; free: boolean; tags: string[]; features: string[]; best: string; caveat: string; url: string }
 export type Review = { id: number; tool_id: number; rating: number; title: string; date: string; description: string }
 const base = (import.meta.env.BACKEND_BASE_URL || '/api').replace(/\/$/, '')
@@ -15,10 +16,13 @@ export function normalizeTool(raw: Record<string, unknown>): Tool {
   let tags = raw.tags
   if (typeof tags === 'string') { const text = tags; try { tags = JSON.parse(text) } catch { tags = text.split(',') } }
   const list = Array.isArray(tags) ? tags.filter((tag): tag is string => typeof tag === 'string') : []
+  const override = list.includes('app-website-building')
+    ? (toolScoreOverrides as Record<string, { ease_of_use: number | null; effectiveness: number | null }>)[String(raw.id)]
+    : undefined
   const priceLabel = String(raw.price ?? 'Pricing unavailable')
   const amount = priceLabel.match(/(?:USD\s*|\$)(\d+(?:\.\d+)?)/i)
   const name = String(raw.name ?? '')
-  return { id: String(raw.id), name, mark: name.slice(0, 1), color: 'ink', category: list[0]?.replaceAll('-', ' ') || 'Other', tagline: String(raw.short_description ?? ''), description: String(raw.description ?? ''), easeOfUse: normalizeScore(raw.ease_of_use), effectiveness: normalizeScore(raw.effectiveness), rating: Number(raw.community_rating ?? 0), reviews: Number(raw.review_count ?? 0), price: amount ? Number(amount[1]) : Number.POSITIVE_INFINITY, priceLabel, free: /^free\b/i.test(priceLabel) && !/^free trial/i.test(priceLabel), tags: list, features: list.map(tag => tag.replaceAll('-', ' ')), best: String(raw.advantages ?? ''), caveat: String(raw.disadvantages ?? ''), url: safeUrl(raw.url) }
+  return { id: String(raw.id), name, mark: name.slice(0, 1), color: 'ink', category: list[0]?.replaceAll('-', ' ') || 'Other', tagline: String(raw.short_description ?? ''), description: String(raw.description ?? ''), easeOfUse: normalizeScore(override ? override.ease_of_use : raw.ease_of_use), effectiveness: normalizeScore(override ? override.effectiveness : raw.effectiveness), rating: Number(raw.community_rating ?? 0), reviews: Number(raw.review_count ?? 0), price: amount ? Number(amount[1]) : Number.POSITIVE_INFINITY, priceLabel, free: /^free\b/i.test(priceLabel) && !/^free trial/i.test(priceLabel), tags: list, features: list.map(tag => tag.replaceAll('-', ' ')), best: String(raw.advantages ?? ''), caveat: String(raw.disadvantages ?? ''), url: safeUrl(raw.url) }
 }
 function normalizeScore(value: unknown): number | null {
   if (value == null || value === '' || (typeof value !== 'number' && typeof value !== 'string')) return null
