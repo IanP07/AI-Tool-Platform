@@ -26,15 +26,15 @@ npm run dev
 
 Restart an already-running Vite server to load the new proxy configuration. `/api/*` proxies to `http://127.0.0.1:8000/*`. Override the target using `API_PROXY_TARGET` in the frontend's `.env` when necessary.
 
-For production, route `/api/*` to FastAPI with the prefix removed, or set `VITE_API_BASE_URL` to the backend's public URL **before building**. For cross-origin deployments, add the frontend's exact origin to the comma-separated `FRONTEND_ORIGINS` backend setting. API keys and the database URL belong only in the backend environment.
+For production, route `/api/*` to FastAPI with the prefix removed, or set `VITE_API_BASE_URL` to the backend's public URL **before building**. Prefer a same-origin reverse proxy; a separately hosted cross-origin API requires CORS configuration on the server. API keys and the database URL belong only in the backend environment.
 
 ## Route contracts
 
 - `GET /tools?amount=100&offset=0`: catalog page, count, and `hasMore`. The frontend follows pages before applying search, category, saved, pricing, and sort controls.
-- `GET /tool/{id}`: tool details, `community_rating`, and `review_count`. These aggregates also appear on catalog rows. No reviews displays as unrated.
-- `GET /get-reviews/{tool_id}`: most recent reviews first.
+- `GET /tool/{id}`: tool details from the database. The frontend displays rating aggregates if returned; otherwise it shows unrated.
+- `GET /get-reviews/{tool_id}`: reviews for the selected tool.
 - `POST /add-review`: `{tool_id, rating, title, description}`. Returns the saved review; the frontend refreshes the tool's rating.
-- `POST /prompt`: `{messages: [{role: "user" | "assistant", content: "..."}]}`. Returns `{text, tools}`. Replaces the old hardcoded GET placeholder. The model receives catalog facts and conversation context; unknown recommended IDs are rejected. Missing configuration returns 503 and provider/malformed-output errors return 502. The frontend shows errors and a retry action, without demo recommendations.
+- `POST /prompt`: `{messages: [{role: "user" | "assistant", content: "..."}]}`. Returns `{text, tools}`. Replaces the old hardcoded GET placeholder. The model receives catalog facts and conversation context; unknown recommended IDs are rejected. Missing configuration retains the original 500 response; malformed recommendation output returns 502. The frontend shows errors and a retry action, without demo recommendations.
 
 Prices remain the database's full text, including currency and billing qualifiers. The lowest-price sort extracts USD amounts where present and places nonnumeric/other-currency entries last rather than doing implicit currency conversions. Tags may be native arrays or JSON-encoded CSV strings.
 

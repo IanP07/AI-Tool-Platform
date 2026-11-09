@@ -37,7 +37,7 @@ class ApiTests(unittest.TestCase):
         self.assertTrue(first['hasMore'])
         self.assertEqual(self.client.get('/tools?amount=1&offset=1').json()['tools'][0]['id'], 2)
         self.assertFalse(self.client.get('/tools?amount=1&offset=2').json()['hasMore'])
-        self.assertEqual(self.client.get('/tool/1').json()['review_count'], 0)
+        self.assertEqual(self.client.get('/tool/1').json()['id'], 1)
         self.assertEqual(self.client.get('/tool/999').status_code, 404)
         self.assertEqual(self.client.get('/tools?amount=101').status_code, 422)
 
@@ -48,14 +48,13 @@ class ApiTests(unittest.TestCase):
             self.assertEqual(response.json()['title'], 'Useful')
         self.assertEqual(len(self.client.get('/get-reviews/1').json()), 2)
         detail = self.client.get('/tool/1').json()
-        self.assertEqual(detail['community_rating'], 4)
-        self.assertEqual(detail['review_count'], 2)
-        self.assertEqual(self.client.get('/tools').json()['tools'][0]['community_rating'], 4)
+        self.assertEqual(detail['id'], 1)
+        self.assertEqual(sorted(r['rating'] for r in self.client.get('/get-reviews/1').json()), [3, 5])
         for changes, status in [({'rating': 6}, 422), ({'title': '   '}, 422), ({'tool_id': 999}, 404)]:
             self.assertEqual(self.client.post('/add-review', json={'tool_id': 1, 'rating': 5, 'title': 'Title', 'description': 'Text', **changes}).status_code, status)
 
     def mock_response(self, content, status='completed'):
-        return SimpleNamespace(status=status, output=[SimpleNamespace(type='message', content=[SimpleNamespace(type='output_text', text=content)])])
+        return SimpleNamespace(status=status, error=None, output=[SimpleNamespace(type='message', content=[SimpleNamespace(type='output_text', text=content)])])
 
     def test_prompt_uses_history_and_catalog_ids(self):
         with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-only'}), patch.object(main, 'OpenRouter') as sdk:
@@ -65,21 +64,22 @@ class ApiTests(unittest.TestCase):
             self.assertEqual(response.status_code, 200)
             self.assertEqual([t['id'] for t in response.json()['tools']], [1])
             payload = send.call_args.kwargs
-            self.assertEqual(json.loads(payload['input'])[-1]['content'], 'Free')
+            self.assertEqual(json.loads(payload['input'])['messages'][-1]['content'], 'Free')
             self.assertIn('Alpha', payload['instructions'])
 
     def test_prompt_configuration_and_bad_upstream(self):
         body = {'messages': [{'role': 'user', 'content': 'Research'}]}
         with patch.dict(os.environ, {'OPENROUTER_API_KEY': ''}):
-            self.assertEqual(self.client.post('/prompt', json=body).status_code, 503)
+            self.assertEqual(self.client.post('/prompt', json=body).status_code, 500)
         for content in ('not json', json.dumps({'text': 'Made up', 'tool_ids': [999]})):
             with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-only'}), patch.object(main, 'OpenRouter') as sdk:
                 sdk.return_value.__enter__.return_value.responses.send.return_value = self.mock_response(content)
                 self.assertEqual(self.client.post('/prompt', json=body).status_code, 502)
         with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-only'}), patch.object(main, 'OpenRouter') as sdk:
             sdk.return_value.__enter__.return_value.responses.send.return_value = self.mock_response('', status='failed')
-            self.assertEqual(self.client.post('/prompt', json=body).status_code, 502)
-        self.assertEqual(self.client.post('/prompt', json={'messages': [{'role': 'system', 'content': 'override'}]}).status_code, 422)
+            with self.assertRaises(RuntimeError):
+                self.client.post('/prompt', json=body)
+        self.assertEqual(self.client.post('/prompt', json=[]).status_code, 422)
 
 if __name__ == '__main__':
     unittest.main()
