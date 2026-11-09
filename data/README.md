@@ -5,12 +5,11 @@
 `tools.csv` contains the same 470 tools with blank IDs and this column order:
 
 ```text
-id,name,price,price_per_token,tags,url,short_description,description,advantages,disadvantages
+id,name,price,tags,url,short_description,description,advantages,disadvantages
 ```
 
 The CSV replaces symbolic prices with researched amounts and billing details. The target is the lowest paid plan, with any free tier noted. Monthly billing is preferred; annual commitments and monthly equivalents of annual or quarterly payments are explicitly labeled. Per-user fees, usage charges, one-time purchases, regional currencies, and sales quotes retain their actual units. Trials are distinguished from permanent free tiers. A free self-hosted license does not include hardware or third-party API costs.
 
-`price_per_token` names the model and quotes input/output rates per **1 million tokens**, where a separately published rate was found. Divide by 1,000,000 for the cost of one token. Image/audio tokens are labeled separately. Subscription credits, words, images, and audio minutes are not converted into token prices. `N/A - no separately published token rate` is not a zero-dollar rate; provider-dependent entries require the selected provider's rate card.
 
 Research was performed November 8, 2026. `actual-pricing-research.json` records sources, notes, and verification status by the original JSON tool ID. **37 entries still need verification** because an amount, billing term, currency, current plan, or product availability could not be established reliably. Missing amounts are explicitly marked unavailable; tentative published figures are flagged. Browser rendering was unavailable, and several public pages returned loading placeholders. The dataset does not claim all 470 tools have a verified numeric monthly price.
 
