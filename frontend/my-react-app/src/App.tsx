@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { getTools, getTool, recommend } from './api'
 import Reviews from './Reviews'
+import toolIcons from './toolIcons.json'
 import type { Tool } from './api'
 import './App.css'
 
@@ -15,7 +16,15 @@ function Icon({ name, size = 20 }: { name: string; size?: number }) {
   }
   return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{paths[name] ?? paths.arrow}</svg>
 }
-function Mark({ tool }: { tool: Tool }) { return <span aria-hidden="true" className={`tool-mark ${tool.color}`}>{tool.mark}</span> }
+function Mark({ tool }: { tool: Tool }) {
+  const url = (toolIcons as Record<string, string>)[tool.id]
+  const [failedUrl, setFailedUrl] = useState<string>()
+  return <span aria-hidden="true" className={`tool-mark ${tool.color}`}>
+    {url && failedUrl !== url
+      ? <img src={url} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setFailedUrl(url)}/>
+      : tool.mark}
+  </span>
+}
 function App() {
   const [route, setRoute] = useState(location.hash.slice(1) || '/')
   const [tools, setTools] = useState<Tool[]>([])
