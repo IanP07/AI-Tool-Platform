@@ -12,6 +12,10 @@ test('database adapter retains IDs, full price terms, categories and actual rati
   assert.deepEqual(tool.tags, ['research', 'writing']); assert.equal(tool.free, true)
   assert.equal(api.normalizeTool({ ...raw, url: 'javascript:alert(1)' }).url, '')
   assert.equal(api.normalizeTool({ id: 1, price: 'Contact sales' }).price, Infinity)
+  assert.equal(api.normalizeTool({ ...raw, ease_of_use: '7.92', effectiveness: 8 }).easeOfUse, 7.92)
+  assert.equal(api.normalizeTool({ ...raw, effectiveness: 8 }).effectiveness, 8)
+  assert.equal(api.normalizeTool(raw).easeOfUse, null)
+  assert.equal(api.normalizeTool({ ...raw, effectiveness: null }).effectiveness, null)
 })
 test('catalog pagination, chat and reviews use backend contracts', async () => {
   const calls = []

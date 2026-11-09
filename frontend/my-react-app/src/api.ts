@@ -1,4 +1,4 @@
-export type Tool = { id: string; name: string; mark: string; color: string; category: string; tagline: string; description: string; rating: number; reviews: number; price: number; priceLabel: string; free: boolean; tags: string[]; features: string[]; best: string; caveat: string; url: string }
+export type Tool = { id: string; name: string; mark: string; color: string; category: string; tagline: string; description: string; rating: number; reviews: number; easeOfUse: number | null; effectiveness: number | null; price: number; priceLabel: string; free: boolean; tags: string[]; features: string[]; best: string; caveat: string; url: string }
 export type Review = { id: number; tool_id: number; rating: number; title: string; date: string; description: string }
 const base = (import.meta.env.BACKEND_BASE_URL || '/api').replace(/\/$/, '')
 export async function request<T>(path: string, init?: RequestInit): Promise<T> {
@@ -18,7 +18,12 @@ export function normalizeTool(raw: Record<string, unknown>): Tool {
   const priceLabel = String(raw.price ?? 'Pricing unavailable')
   const amount = priceLabel.match(/(?:USD\s*|\$)(\d+(?:\.\d+)?)/i)
   const name = String(raw.name ?? '')
-  return { id: String(raw.id), name, mark: name.slice(0, 1), color: 'ink', category: list[0]?.replaceAll('-', ' ') || 'Other', tagline: String(raw.short_description ?? ''), description: String(raw.description ?? ''), rating: Number(raw.community_rating ?? 0), reviews: Number(raw.review_count ?? 0), price: amount ? Number(amount[1]) : Number.POSITIVE_INFINITY, priceLabel, free: /^free\b/i.test(priceLabel) && !/^free trial/i.test(priceLabel), tags: list, features: list.map(tag => tag.replaceAll('-', ' ')), best: String(raw.advantages ?? ''), caveat: String(raw.disadvantages ?? ''), url: safeUrl(raw.url) }
+  return { id: String(raw.id), name, mark: name.slice(0, 1), color: 'ink', category: list[0]?.replaceAll('-', ' ') || 'Other', tagline: String(raw.short_description ?? ''), description: String(raw.description ?? ''), easeOfUse: normalizeScore(raw.ease_of_use), effectiveness: normalizeScore(raw.effectiveness), rating: Number(raw.community_rating ?? 0), reviews: Number(raw.review_count ?? 0), price: amount ? Number(amount[1]) : Number.POSITIVE_INFINITY, priceLabel, free: /^free\b/i.test(priceLabel) && !/^free trial/i.test(priceLabel), tags: list, features: list.map(tag => tag.replaceAll('-', ' ')), best: String(raw.advantages ?? ''), caveat: String(raw.disadvantages ?? ''), url: safeUrl(raw.url) }
+}
+function normalizeScore(value: unknown): number | null {
+  if (value == null || value === '' || (typeof value !== 'number' && typeof value !== 'string')) return null
+  const score = Number(value)
+  return Number.isFinite(score) ? score : null
 }
 function safeUrl(value: unknown) {
   try { const url = new URL(String(value)); return ['http:', 'https:'].includes(url.protocol) ? url.href : '' } catch { return '' }
