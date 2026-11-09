@@ -15,3 +15,5 @@ button:disabled { opacity: .55; cursor: wait; }
 
 .tool-mark img{width:72%;height:72%;object-fit:contain;border-radius:4px}
 .category-list button>span{min-width:0}.category-list button>span>svg,.category-list small{flex-shrink:0}
+
+.list-footer{align-items:center;flex-wrap:wrap}.pagination{display:flex;align-items:center;gap:5px;flex-wrap:wrap}.pagination>span{display:flex;align-items:center;gap:5px}.pagination button{border:1px solid #dce2d6;border-radius:4px;background:transparent;color:#49543e;padding:7px 10px;font:inherit;min-height:32px}.pagination button:hover:not(:disabled){background:#edf0e9}.pagination button[aria-current="page"]{background:#284e3c;color:white;border-color:#284e3c}.pagination button:disabled{cursor:default}.page-gap{padding:0 3px}.directory{scroll-margin-top:20px}
