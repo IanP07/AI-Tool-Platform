@@ -1,15 +1,26 @@
 from pathlib import Path
+from datetime import date
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query
 from openrouter import OpenRouter
+from pydantic import BaseModel, Field, ConfigDict
 import os
 from sqlalchemy import text
-from db import engine 
 
 load_dotenv(Path(__file__).resolve().with_name(".env"))
 
+from db import engine
+
 app = FastAPI()
+
+
+class ReviewCreate(BaseModel):
+    model_config = ConfigDict(str_strip_whitespace=True)
+    tool_id: int = Field(gt=0)
+    rating: int = Field(ge=1, le=5)
+    title: str = Field(min_length=1)
+    description: str = Field(min_length=1)
 
 
 @app.get("/")
@@ -85,5 +96,46 @@ async def get_tool(id: int):
             )
 
         return dict(tool)
+
+@app.post("/add-review", status_code=201)
+async def add_review(review: ReviewCreate):
+    with engine.begin() as conn:
+        tool = conn.execute(
+            text("SELECT id FROM tool WHERE id = :tool_id"),
+            {"tool_id": review.tool_id},
+        ).first()
+        if tool is None:
+            raise HTTPException(status_code=404, detail="Tool not found")
+
+        result = conn.execute(
+            text("""
+                INSERT INTO review (tool_id, rating, title, date, description)
+                VALUES (:tool_id, :rating, :title, :date, :description)
+                RETURNING id, tool_id, rating, title, date, description
+            """),
+            {**review.model_dump(), "date": date.today()},
+        )
+        saved_review = dict(result.mappings().one())
+
+    return saved_review
+
+@app.get("/get-reviews/{tool_id}")
+def get_reviews(tool_id: int):
+    with engine.connect() as conn:
+        result = conn.execute(
+            text("SELECT * FROM review WHERE tool_id = :tool_id"),
+            {"tool_id": tool_id},
+        )
+
+        reviews = result.mappings().all()
+
+        output = []
+
+        for row in reviews:
+            output.append(dict(row))
+
+        return output
+
+
         
 
