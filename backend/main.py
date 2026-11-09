@@ -2,10 +2,11 @@ from pathlib import Path
 from datetime import date
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Body, FastAPI, HTTPException, Query
 from openrouter import OpenRouter
 from pydantic import BaseModel, Field, ConfigDict
 import os
+import json
 from sqlalchemy import text
 
 load_dotenv(Path(__file__).resolve().with_name(".env"))
@@ -28,8 +29,11 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.get("/prompt")
-async def func():
+@app.post("/prompt")
+async def func(prompt=Body(...)):
+    if not isinstance(prompt, (str, dict)):
+        raise HTTPException(status_code=422, detail="Body must be a JSON string or object")
+
     api_key = os.getenv("OPENROUTER_API_KEY")
     if not api_key or not api_key.strip():
         raise HTTPException(status_code=500, detail="OPENROUTER_API_KEY is not configured")
@@ -37,7 +41,7 @@ async def func():
     with OpenRouter(api_key=api_key) as client:
         response = client.responses.send(
             model="~openai/gpt-sol-latest",
-            input="What is the meaning of life?",
+            input=prompt if isinstance(prompt, str) else json.dumps(prompt),
         )
 
         if response.status != "completed":
@@ -45,7 +49,7 @@ async def func():
             raise RuntimeError(message)
 
         message = next(item for item in response.output if item.type == "message")
-        print(next(part.text for part in message.content if part.type == "output_text"))
+        return next(part.text for part in message.content if part.type == "output_text")
 
 
 @app.get("/tools")
