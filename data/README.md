@@ -2,7 +2,7 @@
 
 ## CSV pricing edition
 
-`tools.csv` contains 433 tools with blank IDs (37 entries flagged for unverified pricing were removed) and this column order:
+`tools.csv` contains 363 tools with blank IDs (37 entries flagged for unverified pricing and 70 additional entries whose pricing contains "contact sales" were removed) and this column order:
 
 ```text
 id,name,price,tags,url,short_description,description,advantages,disadvantages
