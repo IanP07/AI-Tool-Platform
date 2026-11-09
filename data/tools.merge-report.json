@@ -1,0 +1,885 @@
+{
+  "input_counts": {
+    "one.json": 328,
+    "two.json": 200,
+    "global_ai_tools_dataset_2026.csv": 300
+  },
+  "total_input_records": 828,
+  "unique_tools": 470,
+  "duplicate_records_merged": 88,
+  "merged_groups": 77,
+  "placeholder_records_separated": 270,
+  "two_json_declared_count": 1016,
+  "two_json_actual_count": 200,
+  "missing_price": 0,
+  "price_counts": {
+    "$": 44,
+    "$$": 262,
+    "$$$": 164
+  },
+  "source_price_counts": {
+    "": 135,
+    "open-source": 62,
+    "paid": 69,
+    "freemium": 192,
+    "free": 12
+  },
+  "pricing_research_count": 197,
+  "missing_advantages": 143,
+  "missing_disadvantages": 143,
+  "tag_counts": {
+    "3d-game-development": 16,
+    "ai-development": 36,
+    "app-website-building": 8,
+    "audio-music": 28,
+    "chat-assistants": 8,
+    "clinical-documentation-care": 16,
+    "coding": 47,
+    "customer-support": 18,
+    "data-analysis": 10,
+    "design-branding": 25,
+    "document-processing": 21,
+    "education-learning": 28,
+    "finance-accounting": 22,
+    "image-creation-editing": 36,
+    "legal-contract-work": 15,
+    "marketing-seo": 29,
+    "meetings-transcription": 15,
+    "presentations": 9,
+    "productivity-knowledge": 24,
+    "property-management-marketing": 15,
+    "recruiting-careers": 23,
+    "research": 7,
+    "sales-outreach": 15,
+    "translation-localization": 18,
+    "video-creation-editing": 39,
+    "voice-assistants": 10,
+    "workflow-automation": 19,
+    "writing-editing": 23
+  },
+  "source_sha256": {
+    "one.json": "90851cae8c7306363a7d7135ff586479893f3c5faa09065bdc1775ec8ce6fd15",
+    "two.json": "b5018e544534f0a0cecbb727f9d275d96f052b4cbd65927e056b8a5519a4a823",
+    "global_ai_tools_dataset_2026.csv": "cf29a762f7b090c7d694a2289e43588f17bb360ed88317b3f9b9e3898dc02b3a"
+  },
+  "field_conflicts": [
+    {
+      "id": "framer",
+      "field": "url",
+      "values": [
+        "https://www.framer.com",
+        "https://www.framer.com/features/ai/"
+      ],
+      "selected": "https://www.framer.com",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit."
+    },
+    {
+      "id": "github-copilot",
+      "field": "price",
+      "values": [
+        "freemium",
+        "paid"
+      ],
+      "selected": "freemium",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit.",
+      "final_price": "$$"
+    },
+    {
+      "id": "hugging-face",
+      "field": "price",
+      "values": [
+        "freemium",
+        "free"
+      ],
+      "selected": "freemium",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit.",
+      "final_price": "$$"
+    },
+    {
+      "id": "murf",
+      "field": "price",
+      "values": [
+        "freemium",
+        "paid"
+      ],
+      "selected": "freemium",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit.",
+      "final_price": "$$"
+    },
+    {
+      "id": "relume",
+      "field": "url",
+      "values": [
+        "https://www.relume.ai",
+        "https://www.relume.io"
+      ],
+      "selected": "https://www.relume.ai",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit."
+    },
+    {
+      "id": "runway",
+      "field": "url",
+      "values": [
+        "https://runway.com",
+        "https://runwayml.com"
+      ],
+      "selected": "https://runway.com",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit."
+    },
+    {
+      "id": "surfer-seo",
+      "field": "url",
+      "values": [
+        "https://surfer.ai",
+        "https://www.surferseo.com"
+      ],
+      "selected": "https://surfer.ai",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit."
+    },
+    {
+      "id": "synthesia",
+      "field": "price",
+      "values": [
+        "freemium",
+        "paid"
+      ],
+      "selected": "freemium",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit.",
+      "final_price": "$$"
+    },
+    {
+      "id": "windsurf",
+      "field": "url",
+      "values": [
+        "https://devin.ai/desktop",
+        "https://windsurf.com/windsurf"
+      ],
+      "selected": "https://devin.ai/desktop",
+      "resolution": "Prefer one.json (November snapshot), then two.json, then CSV; retain alternatives in audit."
+    }
+  ],
+  "merge_decisions": [
+    {
+      "left": "Bolt.new",
+      "right": "Bolt.new",
+      "matched_by": [
+        "id",
+        "bolt-new"
+      ]
+    },
+    {
+      "left": "Jasper",
+      "right": "Jasper",
+      "matched_by": [
+        "id",
+        "jasper"
+      ]
+    },
+    {
+      "left": "Copy.ai",
+      "right": "Copy.ai",
+      "matched_by": [
+        "id",
+        "copy-ai"
+      ]
+    },
+    {
+      "left": "Gong",
+      "right": "Gong",
+      "matched_by": [
+        "id",
+        "gong"
+      ]
+    },
+    {
+      "left": "Apollo.io",
+      "right": "Apollo.io",
+      "matched_by": [
+        "name",
+        "apollo-io"
+      ]
+    },
+    {
+      "left": "Fin by Intercom",
+      "right": "Fin",
+      "matched_by": [
+        "id",
+        "intercom-fin"
+      ]
+    },
+    {
+      "left": "Zendesk AI",
+      "right": "Zendesk AI",
+      "matched_by": [
+        "id",
+        "zendesk-ai"
+      ]
+    },
+    {
+      "left": "GitHub Copilot",
+      "right": "GitHub Copilot",
+      "matched_by": [
+        "id",
+        "github-copilot"
+      ]
+    },
+    {
+      "left": "Cursor",
+      "right": "Cursor",
+      "matched_by": [
+        "id",
+        "cursor"
+      ]
+    },
+    {
+      "left": "Figma AI (Figma Make)",
+      "right": "Figma AI",
+      "matched_by": [
+        "id",
+        "figma-ai"
+      ]
+    },
+    {
+      "left": "Synthesia",
+      "right": "Synthesia",
+      "matched_by": [
+        "id",
+        "synthesia"
+      ]
+    },
+    {
+      "left": "Khanmigo",
+      "right": "Khanmigo",
+      "matched_by": [
+        "id",
+        "khanmigo"
+      ]
+    },
+    {
+      "left": "Duolingo Max",
+      "right": "Duolingo Max",
+      "matched_by": [
+        "id",
+        "duolingo-max"
+      ]
+    },
+    {
+      "left": "Notion AI",
+      "right": "Notion AI",
+      "matched_by": [
+        "id",
+        "notion-ai"
+      ]
+    },
+    {
+      "left": "Otter.ai",
+      "right": "Otter.ai",
+      "matched_by": [
+        "id",
+        "otter-ai"
+      ]
+    },
+    {
+      "left": "Grammarly",
+      "right": "Grammarly",
+      "matched_by": [
+        "id",
+        "grammarly"
+      ]
+    },
+    {
+      "left": "Surfer SEO",
+      "right": "Surfer",
+      "matched_by": [
+        "id",
+        "surfer-seo"
+      ]
+    },
+    {
+      "left": "Writesonic",
+      "right": "Writesonic",
+      "matched_by": [
+        "id",
+        "writesonic"
+      ]
+    },
+    {
+      "left": "Descript",
+      "right": "Descript",
+      "matched_by": [
+        "id",
+        "descript"
+      ]
+    },
+    {
+      "left": "Anyword",
+      "right": "Anyword",
+      "matched_by": [
+        "id",
+        "anyword"
+      ]
+    },
+    {
+      "left": "Clay",
+      "right": "Clay",
+      "matched_by": [
+        "id",
+        "clay"
+      ]
+    },
+    {
+      "left": "Lavender",
+      "right": "Lavender",
+      "matched_by": [
+        "id",
+        "lavender"
+      ]
+    },
+    {
+      "left": "Ada",
+      "right": "Ada",
+      "matched_by": [
+        "name",
+        "ada"
+      ]
+    },
+    {
+      "left": "Tidio",
+      "right": "Tidio",
+      "matched_by": [
+        "id",
+        "tidio"
+      ]
+    },
+    {
+      "left": "Devin Desktop (formerly Windsurf)",
+      "right": "Windsurf Editor",
+      "matched_by": [
+        "id",
+        "windsurf"
+      ]
+    },
+    {
+      "left": "Qodo",
+      "right": "Qodo",
+      "matched_by": [
+        "id",
+        "qodo"
+      ]
+    },
+    {
+      "left": "Augment Code",
+      "right": "Augment Code Cosmos",
+      "matched_by": [
+        "id",
+        "augment-code"
+      ]
+    },
+    {
+      "left": "Recraft",
+      "right": "Recraft",
+      "matched_by": [
+        "id",
+        "recraft"
+      ]
+    },
+    {
+      "left": "Krea",
+      "right": "Krea",
+      "matched_by": [
+        "id",
+        "krea"
+      ]
+    },
+    {
+      "left": "Uizard",
+      "right": "Uizard",
+      "matched_by": [
+        "id",
+        "uizard"
+      ]
+    },
+    {
+      "left": "Relume",
+      "right": "Relume",
+      "matched_by": [
+        "id",
+        "relume"
+      ]
+    },
+    {
+      "left": "Framer AI",
+      "right": "Framer AI",
+      "matched_by": [
+        "name",
+        "framer-ai"
+      ]
+    },
+    {
+      "left": "Speak",
+      "right": "Speak",
+      "matched_by": [
+        "name",
+        "speak"
+      ]
+    },
+    {
+      "left": "Fireflies.ai",
+      "right": "Fireflies.ai",
+      "matched_by": [
+        "name",
+        "fireflies-ai"
+      ]
+    },
+    {
+      "left": "Designs.ai",
+      "right": "Designs.ai",
+      "matched_by": [
+        "id",
+        "designs-ai"
+      ]
+    },
+    {
+      "left": "Lovable",
+      "right": "Lovable",
+      "matched_by": [
+        "id",
+        "lovable"
+      ]
+    },
+    {
+      "left": "Bolt.new",
+      "right": "Bolt",
+      "matched_by": [
+        "id",
+        "bolt-new"
+      ]
+    },
+    {
+      "left": "Replit Agent",
+      "right": "Replit",
+      "matched_by": [
+        "id",
+        "replit"
+      ]
+    },
+    {
+      "left": "Aider",
+      "right": "Aider",
+      "matched_by": [
+        "id",
+        "aider"
+      ]
+    },
+    {
+      "left": "Amp",
+      "right": "Amp",
+      "matched_by": [
+        "id",
+        "amp"
+      ]
+    },
+    {
+      "left": "Devin",
+      "right": "Devin",
+      "matched_by": [
+        "id",
+        "devin"
+      ]
+    },
+    {
+      "left": "Jules",
+      "right": "Jules",
+      "matched_by": [
+        "name",
+        "jules"
+      ]
+    },
+    {
+      "left": "OpenHands",
+      "right": "OpenHands",
+      "matched_by": [
+        "id",
+        "openhands"
+      ]
+    },
+    {
+      "left": "Runway",
+      "right": "Runway",
+      "matched_by": [
+        "id",
+        "runway"
+      ]
+    },
+    {
+      "left": "ElevenLabs",
+      "right": "ElevenLabs",
+      "matched_by": [
+        "id",
+        "elevenlabs"
+      ]
+    },
+    {
+      "left": "HeyGen",
+      "right": "HeyGen",
+      "matched_by": [
+        "id",
+        "heygen"
+      ]
+    },
+    {
+      "left": "Fathom",
+      "right": "Fathom",
+      "matched_by": [
+        "id",
+        "fathom"
+      ]
+    },
+    {
+      "left": "tl;dv",
+      "right": "tl;dv",
+      "matched_by": [
+        "id",
+        "tldv"
+      ]
+    },
+    {
+      "left": "AdCreative.ai",
+      "right": "AdCreative.ai",
+      "matched_by": [
+        "id",
+        "adcreative-ai"
+      ]
+    },
+    {
+      "left": "Ocoya",
+      "right": "Ocoya",
+      "matched_by": [
+        "id",
+        "ocoya"
+      ]
+    },
+    {
+      "left": "Predis.ai",
+      "right": "Predis.ai",
+      "matched_by": [
+        "id",
+        "predis-ai"
+      ]
+    },
+    {
+      "left": "Sierra",
+      "right": "Sierra",
+      "matched_by": [
+        "id",
+        "sierra"
+      ]
+    },
+    {
+      "left": "Decagon",
+      "right": "Decagon",
+      "matched_by": [
+        "id",
+        "decagon"
+      ]
+    },
+    {
+      "left": "Zed",
+      "right": "Zed",
+      "matched_by": [
+        "id",
+        "zed"
+      ]
+    },
+    {
+      "left": "CodeRabbit",
+      "right": "CodeRabbit",
+      "matched_by": [
+        "id",
+        "coderabbit"
+      ]
+    },
+    {
+      "left": "v0",
+      "right": "v0 by Vercel",
+      "matched_by": [
+        "id",
+        "v0"
+      ]
+    },
+    {
+      "left": "Builder.io Visual Copilot",
+      "right": "Builder.io",
+      "matched_by": [
+        "id",
+        "builder-io"
+      ]
+    },
+    {
+      "left": "Greptile",
+      "right": "Greptile",
+      "matched_by": [
+        "id",
+        "greptile"
+      ]
+    },
+    {
+      "left": "Pika",
+      "right": "Pika",
+      "matched_by": [
+        "id",
+        "pika"
+      ]
+    },
+    {
+      "left": "Kapwing",
+      "right": "Kapwing",
+      "matched_by": [
+        "id",
+        "kapwing"
+      ]
+    },
+    {
+      "left": "Clipdrop",
+      "right": "Clipdrop",
+      "matched_by": [
+        "id",
+        "clipdrop"
+      ]
+    },
+    {
+      "left": "Photoroom",
+      "right": "Photoroom",
+      "matched_by": [
+        "id",
+        "photoroom"
+      ]
+    },
+    {
+      "left": "VEED",
+      "right": "VEED",
+      "matched_by": [
+        "id",
+        "veed"
+      ]
+    },
+    {
+      "left": "Luma Dream Machine",
+      "right": "Luma Dream Machine",
+      "matched_by": [
+        "id",
+        "luma-dream-machine"
+      ]
+    },
+    {
+      "left": "ChatGPT",
+      "right": "ChatGPT",
+      "matched_by": [
+        "id",
+        "chatgpt"
+      ]
+    },
+    {
+      "left": "Claude",
+      "right": "Claude",
+      "matched_by": [
+        "id",
+        "claude"
+      ]
+    },
+    {
+      "left": "Gemini",
+      "right": "Google Gemini",
+      "matched_by": [
+        "id",
+        "gemini"
+      ]
+    },
+    {
+      "left": "Perplexity",
+      "right": "Perplexity AI",
+      "matched_by": [
+        "id",
+        "perplexity"
+      ]
+    },
+    {
+      "left": "Midjourney",
+      "right": "Midjourney",
+      "matched_by": [
+        "id",
+        "midjourney"
+      ]
+    },
+    {
+      "left": "Runway",
+      "right": "Runway ML",
+      "matched_by": [
+        "id",
+        "runway"
+      ]
+    },
+    {
+      "left": "Synthesia",
+      "right": "Synthesia",
+      "matched_by": [
+        "id",
+        "synthesia"
+      ]
+    },
+    {
+      "left": "GitHub Copilot",
+      "right": "GitHub Copilot",
+      "matched_by": [
+        "id",
+        "github-copilot"
+      ]
+    },
+    {
+      "left": "Tabnine",
+      "right": "Tabnine",
+      "matched_by": [
+        "id",
+        "tabnine"
+      ]
+    },
+    {
+      "left": "Hugging Face",
+      "right": "Hugging Face",
+      "matched_by": [
+        "id",
+        "hugging-face"
+      ]
+    },
+    {
+      "left": "Notion AI",
+      "right": "Notion AI",
+      "matched_by": [
+        "id",
+        "notion-ai"
+      ]
+    },
+    {
+      "left": "Grammarly",
+      "right": "Grammarly AI",
+      "matched_by": [
+        "id",
+        "grammarly"
+      ]
+    },
+    {
+      "left": "QuillBot",
+      "right": "QuillBot",
+      "matched_by": [
+        "id",
+        "quillbot"
+      ]
+    },
+    {
+      "left": "Jasper",
+      "right": "Jasper AI",
+      "matched_by": [
+        "id",
+        "jasper"
+      ]
+    },
+    {
+      "left": "Copy.ai",
+      "right": "Copy.ai",
+      "matched_by": [
+        "id",
+        "copy-ai"
+      ]
+    },
+    {
+      "left": "Canva Magic Studio",
+      "right": "Canva AI",
+      "matched_by": [
+        "id",
+        "canva-magic-studio"
+      ]
+    },
+    {
+      "left": "Adobe Firefly",
+      "right": "Adobe Firefly",
+      "matched_by": [
+        "id",
+        "adobe-firefly"
+      ]
+    },
+    {
+      "left": "ElevenLabs",
+      "right": "ElevenLabs",
+      "matched_by": [
+        "id",
+        "elevenlabs"
+      ]
+    },
+    {
+      "left": "Murf AI",
+      "right": "Murf AI",
+      "matched_by": [
+        "name",
+        "murf-ai"
+      ]
+    },
+    {
+      "left": "DeepL",
+      "right": "DeepL",
+      "matched_by": [
+        "id",
+        "deepl"
+      ]
+    },
+    {
+      "left": "Otter.ai",
+      "right": "Otter AI",
+      "matched_by": [
+        "id",
+        "otter-ai"
+      ]
+    },
+    {
+      "left": "Descript",
+      "right": "Descript",
+      "matched_by": [
+        "id",
+        "descript"
+      ]
+    },
+    {
+      "left": "Luma AI",
+      "right": "Luma AI",
+      "matched_by": [
+        "id",
+        "luma-ai"
+      ]
+    },
+    {
+      "left": "Leonardo.Ai",
+      "right": "Leonardo AI",
+      "matched_by": [
+        "id",
+        "leonardo-ai"
+      ]
+    }
+  ],
+  "url_enrichments": {
+    "stable-diffusion": "https://stability.ai/stable-image",
+    "pictory": "https://pictory.ai/",
+    "kaggle": "https://www.kaggle.com/",
+    "codeium": "https://docs.devin.ai/windsurf/plugins/getting-started",
+    "replit-ghostwriter": "https://replit.com/",
+    "dall-e": "https://openai.com/index/dall-e-3/"
+  },
+  "notes": [
+    "All input records accounted for: unique tools + merged duplicates + separated placeholders.",
+    "Source URLs are vendor/product/docs/repository links, never directory listing pages. Existing URLs were not all live-checked.",
+    "Price symbols encode models: $ free, $$ freemium, $$$ paid; they are not dollar amounts or relative costs.",
+    "Missing and open-source source models are classified using pricing-research.json. Other source models are mapped directly, not live reverified.",
+    "Research notes distinguish explicit plans, software licensing scope and inferred commercial classifications. Trials alone are not freemium.",
+    "Related products sharing a URL or vendor remain separate unless their identity was explicitly matched.",
+    "DALL-E, Stable Diffusion, Codeium plugins and Replit Ghostwriter remain distinct from newer models, interfaces and agents.",
+    "No assertions about current product availability are made for legacy records."
+  ]
+}

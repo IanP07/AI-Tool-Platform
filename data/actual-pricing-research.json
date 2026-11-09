@@ -1,0 +1,4702 @@
+{
+  "abacum": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.abacum.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No public monthly amount in sales-led vendor offering.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "abridge": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.abridge.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No public monthly amount.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "activepieces": {
+    "price": "Free; Plus USD 20/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.activepieces.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ada": {
+    "price": "Contact sales (conversation-based pricing)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.ada.cx/platform/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor does not publish a per-conversation amount.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "adcreative-ai": {
+    "price": "USD 39/month (Starter)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.adcreative.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "adobe-express": {
+    "price": "Free; Premium USD 9.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.adobe.com/express/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "adobe-firefly": {
+    "price": "Free limited; Standard USD 9.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.adobe.com/products/firefly/plans.html?locale=en-US"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "adobe-podcast-enhance": {
+    "price": "Free limited; Premium with Firefly Pro USD 19.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://podcast.adobe.com/premium"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Firefly Pro amount confirmed on Adobe US Firefly plans page.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ai-homedesign": {
+    "price": "USD 19/month (billed annually; USD 228/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://aihomedesign.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "aider": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://aider.chat"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Local coding tool is available without a software subscription; model-provider usage can cost extra.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "aiva": {
+    "price": "Free; EUR 11/month + VAT (Standard; billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.aiva.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "almanack": {
+    "price": "Free; Pro monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.almanack.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Dynamic price shows Loading; structured data lists USD 9.99 and 11.99 without billing period or plan mapping",
+    "verification_status": "needs_verification"
+  },
+  "amazon-q-developer": {
+    "price": "Free; Pro USD 19/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://aws.amazon.com/q/developer/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ambience-healthcare": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.ambiencehealthcare.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "ROI figures are not subscription prices.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "amp": {
+    "price": "USD 20/month (Individual)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://ampcode.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "amplemarket": {
+    "price": "USD 600/month (annual term; 2 users)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.amplemarket.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "anima": {
+    "price": "Free limited tier; paid monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.animaapp.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Pricing amounts not returned by public page",
+    "verification_status": "needs_verification"
+  },
+  "anthropic-api": {
+    "price": "Usage-based API; no fixed monthly subscription",
+    "price_per_token": "Haiku 5.5 (<=100K prompt): USD 0.10 input / USD 0.50 output per 1M tokens; Sonnet 5.5: USD 2 input / USD 10 output per 1M",
+    "sources": [
+      "https://claude.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Standard uncached rates; long-context/cache rates differ.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "anyword": {
+    "price": "USD 49/month (Starter); USD 39/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.anyword.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "apollo-io": {
+    "price": "Free; Basic USD 49/seat/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.apollo.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "artisan": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.artisan.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "askyourpdf": {
+    "price": "Free; Premium USD 11.99/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://askyourpdf.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "assemblyai": {
+    "price": "Usage-based; speech-to-text from USD 0.15/audio hour",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.assemblyai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Not a fixed monthly subscription; optional language-model features have separate rates.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "audiocraft": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/facebookresearch/audiocraft"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Downloadable code and research weights without a subscription; license restrictions apply to weights.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "augment-code": {
+    "price": "USD 20/month (Standard; includes USD 20 usage)",
+    "price_per_token": "Varies by model; usage-based overages",
+    "sources": [
+      "https://www.augmentcode.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Additional LLM, context and compute usage charged separately.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "auphonic": {
+    "price": "Free 2 audio hours/month; S USD 13/month for 9 hours",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://auphonic.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Verified monthly plan data-price-dollar HTML attribute",
+    "verification_status": "published_price_or_free_access"
+  },
+  "autogen": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://microsoft.github.io/autogen/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Downloadable agent framework; third-party model and infrastructure usage costs excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "autoreel": {
+    "price": "Free; Essential USD 30/month (billed yearly)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.autoreelapp.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Displayed annual equivalent; quarterly billing also offered.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "avoma": {
+    "price": "USD 19/recorder/month (billed annually); viewers free",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.avoma.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "bardeen": {
+    "price": "Free; paid from USD 10/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.bardeen.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "base44": {
+    "price": "Free; Starter USD 16/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://base44.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "basedash": {
+    "price": "USD 1000/month + AI usage (up to 25 users)",
+    "price_per_token": "Varies by model; additional AI usage",
+    "sources": [
+      "https://www.basedash.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "beamery": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://beamery.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "beatoven-ai": {
+    "price": "Paid price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.beatoven.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current subscription amount not accessible in public page",
+    "verification_status": "needs_verification"
+  },
+  "beautiful-ai": {
+    "price": "USD 14.50/month (Pro; billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.beautiful.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "bill": {
+    "price": "Free Spend & Expense; AP/AR Essentials USD 49/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.bill.com/product/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "bland-ai": {
+    "price": "USD 0/month platform fee + USD 0.14/minute (Start)",
+    "price_per_token": "N/A - billed per minute, not per token",
+    "sources": [
+      "https://www.bland.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No token charges stated; optional Build USD 299/month lowers minute rate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "bolt-new": {
+    "price": "Free; Pro USD 25/month",
+    "price_per_token": "No universal per-token rate; plan allowance",
+    "sources": [
+      "https://bolt.new/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Credits/tokens included in plans, not an independently priced token API.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "booke-ai": {
+    "price": "USD 129/business/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://booke.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "botpress": {
+    "price": "Free; Plus USD 150/month (billed annually) + usage",
+    "price_per_token": "Varies by underlying LLM; AI usage charged separately",
+    "sources": [
+      "https://botpress.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "brainly": {
+    "price": "Free basic access; paid price varies by country/platform, unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://brainly.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No current numerical checkout amount verified",
+    "verification_status": "needs_verification"
+  },
+  "brandmark": {
+    "price": "USD 35 one-time (Basic); no monthly subscription",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://brandmark.io/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "brex": {
+    "price": "Free; Premium USD 12/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.brex.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "brisk-teaching": {
+    "price": "Free for teachers; school/district plans by quote",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.briskteaching.com/plans"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "browser-use": {
+    "price": "Free local software; cloud browsers USD 0.02/hour + usage",
+    "price_per_token": "Model-dependent; browser/traffic charges separate",
+    "sources": [
+      "https://browser-use.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "browserbase": {
+    "price": "Free; Developer USD 20/month + overages",
+    "price_per_token": "Varies by selected model; model usage billed separately",
+    "sources": [
+      "https://www.browserbase.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "buffer": {
+    "price": "Free; Essentials USD 5/channel/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://buffer.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "builder-io": {
+    "price": "Free; Pro USD 24/user/month (annual billing option shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.builder.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "campfire": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://campfire.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "canva-magic-studio": {
+    "price": "Free limited; Pro USD 12/month equivalent (USD 144/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.canva.com/pricing/?external_link=true"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "capcut": {
+    "price": "Free; Pro USD 19.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.capcut.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Displayed standard individual monthly plan; promotional generation discounts excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "captions": {
+    "price": "USD 24.99/month (Max; iOS)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://captions.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor pricing page specifies iOS plans; regional/platform variation applies.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cartesia": {
+    "price": "Free; Pro USD 5/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.cartesia.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Speech product priced in credits/audio, not a single text-token rate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "chatbase": {
+    "price": "USD 40/month (Hobby); USD 32/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.chatbase.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "chatgpt": {
+    "price": "Free; Go USD 8/month (US); Plus USD 20/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://learn.chatgpt.com/docs/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "chatgpt-agent": {
+    "price": "ChatGPT Plus USD 20/month; general ChatGPT free tier available",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://learn.chatgpt.com/docs/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Agent mode entitlement in cached ChatGPT Codex pricing page; no standalone Operator subscription",
+    "verification_status": "published_price_or_free_access"
+  },
+  "chatgpt-images": {
+    "price": "Free limited image creation; ChatGPT Go USD 8/month (US)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://learn.chatgpt.com/docs/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Image availability verified in cached ChatGPT plan page; API separate",
+    "verification_status": "published_price_or_free_access"
+  },
+  "chatpdf": {
+    "price": "Free (2 documents/day); Plus monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.chatpdf.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Public FAQ confirms tiers but does not return paid amount",
+    "verification_status": "needs_verification"
+  },
+  "chatwoot": {
+    "price": "Free; Startups USD 19/agent/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.chatwoot.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cinc": {
+    "price": "Contact sales for platform; AI add-on from USD 200/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.cincpro.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Add-on is not the total subscription price.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "claude": {
+    "price": "Free; Pro USD 20/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://claude.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "App subscription; API billed separately.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "claude-agent-sdk": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://code.claude.com/docs/en/agent-sdk/overview"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No separate SDK charge; authentication requires an eligible subscription or separately billed API/model access.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "claude-code": {
+    "price": "USD 20/month with Claude Pro; API usage alternative",
+    "price_per_token": "API model-dependent; separate from subscription",
+    "sources": [
+      "https://claude.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "claude-for-chrome": {
+    "price": "USD 20/month with Claude Pro",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://claude.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "clay": {
+    "price": "Free; Launch from USD 185/month (USD 167/month annual option)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.clay.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Actions and data-credit allowance vary with selected plan.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cleanup-pictures": {
+    "price": "Free; Pro USD 5/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://cleanup.pictures/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cleanvoice": {
+    "price": "USD 11/month (10 audio hours; VAT extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://cleanvoice.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "clearbrief": {
+    "price": "USD 300/user/month (annual license)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://clearbrief.com/#pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "clearscope": {
+    "price": "USD 129/month (Essentials)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.clearscope.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cline": {
+    "price": "Free software; model usage extra; paid plans not verified",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://cline.bot/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "clipdrop": {
+    "price": "Free limited tier; Pro monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://clipdrop.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Rendered public amount is a placeholder, not zero",
+    "verification_status": "needs_verification"
+  },
+  "cloze": {
+    "price": "Free basic; Pro USD 19.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://pubsub.cloze.com/app/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cocounsel-legal": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "codeium": {
+    "price": "Legacy plugin in maintenance; current paid price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://docs.devin.ai/windsurf/plugins/getting-started"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Do not substitute Devin agent pricing for legacy plugins",
+    "verification_status": "needs_verification"
+  },
+  "coderabbit": {
+    "price": "Free limited; Essentials USD 30/developer/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.coderabbit.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cognigy": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.cognigy.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise contact-center platform sold through consultation; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "cognism": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.cognism.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "collov-ai": {
+    "price": "USD 19/month (Standard; billed annually USD 228)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://collov.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "colossyan": {
+    "price": "Free; Professional USD 59/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.colossyan.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "comfyui": {
+    "price": "Free local software; Cloud Standard USD 20/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://comfy.org/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "conker": {
+    "price": "Monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.conker.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Pricing iframe https://app.conker.ai/framer/pricing returned no amounts",
+    "verification_status": "needs_verification"
+  },
+  "consensus": {
+    "price": "Free; Pro USD 20/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://help.consensus.app/en/articles/10087865-subscription-plans"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "continue": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://continue.dev"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor states the open-source codebase remains freely available after service changes.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "convai": {
+    "price": "Free; Indie Dev USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://delta.convai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "copy-ai": {
+    "price": "USD 29/month; USD 24/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.copy.ai/prices"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "copyleaks": {
+    "price": "USD 13.99/month (Personal; billed annually USD 167.88)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://copyleaks.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cosupport-ai": {
+    "price": "Usage-based: USD 0.50/resolved ticket; no fixed monthly amount",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://cosupport.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "coursebox": {
+    "price": "Free; Creator monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.coursebox.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Regional dynamic prices not returned; structured USD 30 lacks billing period",
+    "verification_status": "needs_verification"
+  },
+  "create-xyz": {
+    "price": "Free; Pro USD 19/month (annual billing option shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.create.xyz/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "crewai": {
+    "price": "Free open-source; enterprise platform by quote",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://crewai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "crowdin": {
+    "price": "Paid monthly price unavailable to verify; free options subject to eligibility",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://crowdin.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current public numerical plan amount not retrievable",
+    "verification_status": "needs_verification"
+  },
+  "cube-software": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.cubesoftware.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "curipod": {
+    "price": "Free; school/district plans by quote",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://curipod.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "cursor": {
+    "price": "Free; Plus USD 8/month (Grok models only)",
+    "price_per_token": "Third-party model-dependent; billed separately",
+    "sources": [
+      "https://cursor.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Premium USD 30/month; third-party models billed separately. Current official plans differ from older Cursor pricing.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "d-id": {
+    "price": "Free trial; current paid monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.d-id.com/pricing/studio/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Only outdated 2022 Lite amount found; not used as current price",
+    "verification_status": "needs_verification"
+  },
+  "dall-e": {
+    "price": "Unavailable - DALL-E API retired May 12, 2026",
+    "price_per_token": "N/A - retired API",
+    "sources": [
+      "https://developers.openai.com/api/docs/deprecations"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Do not assign current GPT Image pricing to retired DALL-E",
+    "verification_status": "legacy_or_retiring"
+  },
+  "datarails": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.datarails.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "decagon": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://decagon.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "decktopus": {
+    "price": "USD 24.99/month; USD 9.99/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.decktopus.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "deepgram": {
+    "price": "Usage-based; no fixed monthly minimum (USD 200 trial credits)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://deepgram.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Speech/audio rates depend on model and feature.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "deepl": {
+    "price": "Free; Individual EUR 7.49/month (billed annually; German locale)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.deepl.com/en/pro"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor localized price; not converted to USD.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "deepscribe": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.deepscribe.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise oncology documentation deployment via demo; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "definely": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://clio.us.definely.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial license with seven-day trial; paid classification inferred from trial and licensing offer.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "descript": {
+    "price": "Free; Hobbyist USD 24/person/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.descript.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "designs-ai": {
+    "price": "Go USD 9.90/month (annual plan)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://designs.ai/en/pricing?subid=archive"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "devin": {
+    "price": "Free; Pro USD 20/month",
+    "price_per_token": "Varies by model; extra usage at API rates",
+    "sources": [
+      "https://devin.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "diffit": {
+    "price": "Free basic; Premium USD 14.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://web.diffit.me/individual-teacher-subscription"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "dify": {
+    "price": "Free; Professional USD 49.17/workspace/month equivalent (USD 590/year)",
+    "price_per_token": "Provider-dependent after included credits; BYO API key",
+    "sources": [
+      "https://dify.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "digits": {
+    "price": "USD 65/month (Essentials)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://digits.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "docling": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://docling.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Open-source document processing library available for local installation.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "docyt": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.docyt.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Pricing per property; no fixed public monthly amount captured.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "dragon-copilot": {
+    "price": "Contact sales - per-user license plus per-encounter usage; public amount unavailable",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://learn.microsoft.com/en-us/partner-center/announcements/2026-april"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial model changed May 2026; older physician-practice prices not used",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "drivetrain": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.drivetrain.ai/faq"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial fixed plans; current public amount unavailable.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "duolingo-max": {
+    "price": "Max price varies by country/platform; monthly amount unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.duolingo.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Base Duolingo is free; Max is a paid upgrade",
+    "verification_status": "needs_verification"
+  },
+  "edcafe-ai": {
+    "price": "Free; Pro USD 7.99/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.edcafe.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "education-copilot": {
+    "price": "Free; Pro USD 9/month (billed annually; USD 108/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://educationcopilot.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "eightfold-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://eightfold.ai/msa/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Subscription fees set in order forms.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "eightify": {
+    "price": "Current paid monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://eightify.app"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current public numerical plan amount not retrievable",
+    "verification_status": "needs_verification"
+  },
+  "elai": {
+    "price": "Free limited; Creator USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://elai.io/pricing?via=hubgpt"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "elevenlabs": {
+    "price": "Free; Starter USD 6/month standard renewal",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://elevenlabs.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "elevenlabs-agents": {
+    "price": "Free (15 call minutes); Starter USD 6/month",
+    "price_per_token": "Model-dependent LLM rates billed separately; no universal token price",
+    "sources": [
+      "https://elevenlabs.io/pricing/agents"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "LLM costs additional/model-dependent",
+    "verification_status": "published_price_or_free_access"
+  },
+  "elevenlabs-dubbing": {
+    "price": "Free limited; Starter USD 6/month standard renewal",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://elevenlabs.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Starter includes Dubbing Studio.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "elicit": {
+    "price": "Free; Plus USD 11/user/month (billed annually; USD 132/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://elicit.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "elsa-speak": {
+    "price": "Free limited; Pro USD 7.99/month; Premium USD 21.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://elsaspeak.com/inf/promobearbig/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor partner offer page; confirm regional eligibility/renewal price.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "enhancv": {
+    "price": "7-day free plan; Pro USD 39/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://enhancv.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Verified pricing page structured data and monthly checkout product amount",
+    "verification_status": "published_price_or_free_access"
+  },
+  "eve-legal": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.eve.legal/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial legal platform offered through sales; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "fathom": {
+    "price": "Free; Team USD 19/user/month (2-user minimum)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.fathom.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "figma-ai": {
+    "price": "Free limited; Professional full seat USD 16/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.figma.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Full seat selected for design features; cheaper collaboration seats have different entitlements.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "figma-make": {
+    "price": "Free limited; Professional full seat USD 16/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.figma.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "final-round-ai": {
+    "price": "Free preparation; Pro from USD 25/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.finalroundai.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Billing term not disclosed alongside starting amount.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "findem": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.findem.ai/platform"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "firebase-studio": {
+    "price": "Free existing workspaces; new workspaces unavailable; shuts down March 22, 2027",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://firebase.studio"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor says new workspaces can no longer be created.",
+    "verification_status": "legacy_or_retiring"
+  },
+  "fireflies": {
+    "price": "Free; Pro USD 18/seat/month (USD 10 billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://fireflies.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "fireworks-ai": {
+    "price": "Usage-based API; no fixed monthly subscription",
+    "price_per_token": "Example Kimi K3: USD 3 input / USD 15 output per 1M tokens; cached input USD 0.30/1M",
+    "sources": [
+      "https://fireworks.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Example standard serverless rate; other models differ.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "fish-speech": {
+    "price": "Free software/tier; Fish Audio Plus USD 15/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://fish.audio/plan/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Hosted plan separate from freely downloadable software.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "flint": {
+    "price": "Free; school plan USD 250/month equivalent (USD 3000/year; up to 150 users)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://flintk12.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "floqast": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.floqast.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "flowise": {
+    "price": "Free self-hosted; legacy Cloud Starter USD 35/month (sunsetting)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://flowiseai.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Sunset notice means current purchase availability must be checked.",
+    "verification_status": "legacy_or_retiring"
+  },
+  "flux": {
+    "price": "Free downloadable models; API usage-based from USD 0.008/image (FLUX 3 Image Klein)",
+    "price_per_token": "N/A - API priced per image/resolution",
+    "sources": [
+      "https://bfl.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Image generation does not have one monthly subscription rate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "fooocus": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/lllyasviel/Fooocus"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Official repository describes offline software as free and open source.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "forethought": {
+    "price": "Contact sales (outcome-based pricing)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://forethought.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "formative": {
+    "price": "Free basic; Classroom USD 20.75/teacher/month (USD 249/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.formative.com/plans"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "formula-bot": {
+    "price": "Free; Pro USD 20/month (billed annually; USD 240/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://betteranalyst.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "framer": {
+    "price": "Free; Basic USD 10/month (yearly billing option shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.framer.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "frase": {
+    "price": "USD 49/month (Starter); USD 39/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.frase.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "freddy-ai-freshworks": {
+    "price": "Freshdesk from USD 19/agent/month (annual) + USD 49/100 AI sessions",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.freshworks.com/freshdesk/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "First 500 AI sessions included; product-specific base subscription required.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "freed-ai": {
+    "price": "Starter USD 59/month; USD 39/month annual option",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.getfreed.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "freepik-ai": {
+    "price": "Free limited; Premium USD 20/month (now Magnific)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.magnific.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "USD 14.50/month annual option displayed.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "fyxer": {
+    "price": "Pro USD 49/person/month; USD 37/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.fyxer.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gamma": {
+    "price": "Free limited; Plus USD 9/seat/month (billed annually USD 108)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://gamma.app/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gc-ai": {
+    "price": "USD 500/month; USD 416.67/month equivalent (USD 5000/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://gc.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gem": {
+    "price": "From USD 130/month (annual term; 1-10 FTE tier)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.gem.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Starting quote varies by company size; listed crossed-out comparison price excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gemini": {
+    "price": "Free; Google AI Plus USD 7.99/month (US)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gemini-cli": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://github.com/google-gemini/gemini-cli"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Apache-licensed CLI code is free; enterprise model/service access is charged separately.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gemini-nano-banana": {
+    "price": "Free limited access; Google AI Plus USD 7.99/month (US)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "genie-ai": {
+    "price": "Free; Pro USD 75/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.genieai.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "github-copilot": {
+    "price": "Free; Pro USD 10/user/month",
+    "price_per_token": "Model-dependent AI credit consumption; not a single token rate",
+    "sources": [
+      "https://github.com/features/copilot"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "glasp": {
+    "price": "Free; Pro USD 15/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://glasp.co/posts/price-update-2026-05-01"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "glean": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.glean.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise knowledge platform purchased through sales; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "gong": {
+    "price": "Contact sales (per-user licenses + platform fee)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.gong.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "google-adk": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://adk.dev"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Open-source downloadable development framework; hosting and model usage are separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "google-stitch": {
+    "price": "Free (USD 0/month), usage limits apply",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://discuss.ai.google.dev/t/about-increasing-stitch-credits/106684"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor forum states no paid plan; current paid amount not found",
+    "verification_status": "published_price_or_free_access"
+  },
+  "google-translate": {
+    "price": "USD 0/month (consumer translator)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://translate.google.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Cloud Translation API is a separate product.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "google-veo": {
+    "price": "Google AI Plus USD 7.99/month (US) via Flow; generation limits apply",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Veo access via Flow plan, not standalone subscription",
+    "verification_status": "published_price_or_free_access"
+  },
+  "goose": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://block.github.io/goose/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Open-source local agent framework; external model-provider usage is separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gorgias": {
+    "price": "USD 40/month (Starter with AI; USD 10 helpdesk + USD 30 AI)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.gorgias.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Ticket and automated-interaction overages extra.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gpt-for-work": {
+    "price": "USD 25/month (Standard; includes USD 25 usage)",
+    "price_per_token": "Varies by selected model; separately metered usage",
+    "sources": [
+      "https://autosheet.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gpt4all": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.nomic.ai/gpt4all"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Downloadable local model application; Nomic's separate hosted platform pricing does not change this product's software cost.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gptzero": {
+    "price": "Free; Essential USD 14.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://gptzero.me/news/top-tools-for-writing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gradescope": {
+    "price": "Free basic; institutional license by quote",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://turnitin.gradescope.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "grammarly": {
+    "price": "Free; Pro USD 30/member/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://support.grammarly.com/hc/en-us/articles/115000090011-How-much-does-Grammarly-Pro-cost"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "granola": {
+    "price": "Free limited; Business USD 14/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.granola.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "graphite": {
+    "price": "Free Hobby; Starter USD 20/user/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://graphite.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "greptile": {
+    "price": "Free limited; Pro USD 1/credit (usage-based, no fixed monthly amount)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.greptile.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Review credits are not model tokens.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "grok": {
+    "price": "Free; Plus USD 8/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://x.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "groq": {
+    "price": "Free developer limits; paid API usage-based, no fixed monthly price",
+    "price_per_token": "GPT-OSS 20B: USD 0.075 input / USD 0.30 output per 1M tokens",
+    "sources": [
+      "https://console.groq.com/docs/models"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Model-specific rates",
+    "verification_status": "published_price_or_free_access"
+  },
+  "gumloop": {
+    "price": "Pro from USD 37/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.gumloop.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Starting price; billing term must be confirmed at checkout.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "guru": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.getguru.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "hailuo": {
+    "price": "Free; Standard USD 14.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://hailuoai.video/doc/payment-policy.html"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "harvey": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.harvey.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial legal platform offered through enterprise demos; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "hatchful": {
+    "price": "Free (USD 0/month)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.shopify.com/tools/logo-maker"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "heidi-health": {
+    "price": "Free; Clinician Standard USD 110/user/month, billed annually (needs verification)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.heidihealth.com/en-us/try-heidi/clinical-confidence"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Published USD regional page; main pricing page dynamically loads amounts",
+    "verification_status": "needs_verification"
+  },
+  "hellodata": {
+    "price": "USD 300/user/month (Standard)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.hellodata.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "hemingway-editor": {
+    "price": "Free editor; Editor Plus USD 8.33/month equivalent, billed USD 100 annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://hemingwayapp.com/help/support-articles/billing-faqs"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "heygen": {
+    "price": "Free; Creator USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.heygen.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "higgsfield": {
+    "price": "Free limited generations; Starter USD 19/month, billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://higgsfield.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "hippocratic-ai": {
+    "price": "Usage-based from USD 9/hour; contact sales for contract",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://hippocraticai.com/new-products/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "hireez": {
+    "price": "From USD 494/month (solo recruiter)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://hireez.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "hirevue": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.hirevue.com/wp-content/uploads/2020/09/HireVue-Master-Service-Agreement.pdf"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Order-based commercial subscription; no public current amount verified.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "hootsuite": {
+    "price": "From USD 99/month (Standard; billing term to confirm)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.hootsuite.com/plans"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "hugging-face": {
+    "price": "Free; Pro USD 9/month; inference/compute extra",
+    "price_per_token": "Varies by model and inference provider",
+    "sources": [
+      "https://huggingface.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "humata": {
+    "price": "Free limited; Expert USD 9.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.humata.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "huntr": {
+    "price": "Free; Pro USD 40/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://huntr.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "hunyuan3d": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/Tencent-Hunyuan/Hunyuan3D-2"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Classification applies to downloadable code and model weights under Tencent license restrictions, not a guarantee of free hosted studio or unrestricted commercial use. Local compute costs separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "hypotenuse-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.hypotenuse.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "ideogram": {
+    "price": "Free limited; Plus USD 20/month (USD 15 billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://ideogram.ai/pricing/?pricing_tab=api"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "innovaccer": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://innovaccer.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise healthcare platform sold through sales; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "instantly": {
+    "price": "USD 47/month (Outreach Growth); AI credits sold separately",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://instantly.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "intercom-fin": {
+    "price": "Usage-based: USD 0.99/outcome; optional helpdesk from USD 19/seat/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://fin.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "invideo-ai": {
+    "price": "Free limited; Starter USD 20/seat/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://invideo.io/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "inworld": {
+    "price": "Pay-as-you-go; Creator USD 25/month in credits",
+    "price_per_token": "From USD 0.07 per 1M input tokens; output varies by model",
+    "sources": [
+      "https://inworld.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Rates depend on selected model.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ironclad": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://ironcladapp.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "ivo-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.ivo.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise legal platform sold through demos; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "jacquard": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.jacquard.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Example customer revenues are not product prices.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "jan": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.jan.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor identifies Jan Desktop as free and open source.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "jasper": {
+    "price": "USD 69/seat/month (Pro)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.jasper.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "jetbrains-ai-assistant": {
+    "price": "AI Free with eligible IDE; AI Pro USD 10/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.jetbrains.com/store/ai/?billing=monthly&section=personal"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "IDE license may cost extra",
+    "verification_status": "published_price_or_free_access"
+  },
+  "jirav": {
+    "price": "From USD 50/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.jirav.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "jobscan": {
+    "price": "Free limited scans; Premium USD 29.98/month equivalent, billed USD 89.95 quarterly",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.jobscan.co/promos"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Monthly billing amount not verified",
+    "verification_status": "published_price_or_free_access"
+  },
+  "jules": {
+    "price": "Free; Google AI Pro USD 19.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://jules.google/docs/usage-limits/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Price from https://one.google.com/about/google-ai-plans/?gl=US",
+    "verification_status": "published_price_or_free_access"
+  },
+  "julius-ai": {
+    "price": "Free; Plus USD 20/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://julius.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "jupyter-ai": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/jupyterlab/jupyter-ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "BSD-licensed notebook extension; third-party agents/models may cost extra.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kaedim": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.kaedim3d.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Case-study savings are not product prices.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "kaggle": {
+    "price": "Free (USD 0/month), resource quotas apply",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.kaggle.com/docs/notebooks"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kapwing": {
+    "price": "Free; Pro USD 16/month (annual billing option shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.kapwing.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "khanmigo": {
+    "price": "Free for teachers; USD 4/month for learners/parents",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.khanmigo.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kickresume": {
+    "price": "Free; Premium USD 8/month (billed USD 96 annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.kickresume.com/en/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kilo-code": {
+    "price": "Free software; Teams USD 15/user/month + model usage",
+    "price_per_token": "Varies by selected model/provider; BYOK or gateway usage",
+    "sources": [
+      "https://kilo.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kira-litera": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.litera.com/capabilities/review"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial contract-review platform sold through demos; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "kiro": {
+    "price": "Free; Pro USD 20/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://kiro.dev/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Credits are not tokens; add-on credits USD 0.04 each.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "klap": {
+    "price": "USD 14.50/month (billed annually; USD 174/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://klap.app/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kling": {
+    "price": "Standard USD 8.80/month renewal; introductory discounts vary",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://kling.ai/blog/kling-video-3-0-credit-cost-guide?tab=all"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor guide lists USD 6.99 introductory and USD 8.80 next renewal",
+    "verification_status": "published_price_or_free_access"
+  },
+  "knowt": {
+    "price": "Free; Teacher Ultra USD 16.67/month equivalent (USD 199.99/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://knowt.com/plans?tab=teachers"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor headline rounds inconsistently to USD 16.99; equivalent calculated from annual total.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kokoro": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/hexgrad/kokoro"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Downloadable Apache-licensed speech library; hardware costs excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kore-ai": {
+    "price": "Free developer options; paid enterprise pricing by quote",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.kore.ai/terms-of-service"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No public paid monthly amount verified.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "krea": {
+    "price": "Free; Basic USD 9/month list price (discounted USD 5 shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.krea.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Promotion/billing eligibility varies; confirm checkout.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "krisp": {
+    "price": "USD 16/user/month (Core); USD 8/month annual option",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://krisp.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "kustomer": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.kustomer.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "langchain": {
+    "price": "Free library; LangSmith Plus USD 39/seat/month + usage",
+    "price_per_token": "Provider-dependent; model costs separate from framework/observability",
+    "sources": [
+      "https://www.langchain.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "langflow": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://www.langflow.org"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor offers open-source local deployment and free cloud access; external model charges excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "langgraph": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.langchain.com/langgraph"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor explicitly identifies the LangGraph library as free; LangSmith is a separate product.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "later": {
+    "price": "USD 18.75/month (Starter; billed yearly)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://later.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "lattice-ai": {
+    "price": "USD 13/seat/month (Foundations including AI Agent)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://lattice.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "lavender": {
+    "price": "Free limited tier; Starter USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://lavender.ai/coach"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "layer-ai": {
+    "price": "From USD 10/month (300 Creative Units)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://layer.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Units are platform credits, not model tokens.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "le-chat": {
+    "price": "Free; Vibe Pro (formerly Le Chat) USD 14.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://mistral.ai/news/vibe-agent/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "leena-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://leena.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "legalon": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.legalontech.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "leonardo-ai": {
+    "price": "Free; Essential USD 12/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://leonardo.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Fast Tokens are generation credits, not LLM text tokens",
+    "verification_status": "published_price_or_free_access"
+  },
+  "libretranslate": {
+    "price": "Free self-hosted; hosted Pro USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://portal.libretranslate.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Hosted API is paid; self-hosting infrastructure costs separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "lindy": {
+    "price": "USD 29.99/user/month after 7-day trial",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.lindy.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "listingai": {
+    "price": "Free limited; Essential USD 19/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.listingai.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "litellm": {
+    "price": "Free self-hosted; enterprise by quote",
+    "price_per_token": "Provider/model-dependent; gateway does not set a universal token rate",
+    "sources": [
+      "https://www.litellm.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "livekit-agents": {
+    "price": "Free Build; Ship from USD 50/month + usage",
+    "price_per_token": "Varies by selected LLM/inference provider; agent-minute fees separate",
+    "sources": [
+      "https://livekit.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "llama-cpp": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/ggml-org/llama.cpp"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "MIT-licensed local inference software without a subscription.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "llamaindex": {
+    "price": "Free framework; cloud USD 0/month + USD 1.50/1000 credits; Pro USD 500/month",
+    "price_per_token": "Framework: provider-dependent; parsing credits are not tokens",
+    "sources": [
+      "https://www.llamaindex.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "llamaparse": {
+    "price": "USD 0/month + USD 1.50/1000 credits; Pro USD 500/month",
+    "price_per_token": "N/A - billed in parsing credits, not tokens",
+    "sources": [
+      "https://www.llamaindex.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "10K starter credits included; page/feature usage consumes credits.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "lm-studio": {
+    "price": "Free local; Bionic+ USD 20/month",
+    "price_per_token": "Local inference has no token fee; cloud model rates vary",
+    "sources": [
+      "https://lmstudio.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "lmnt": {
+    "price": "Discontinued; no current price",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.lmnt.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Official site states LMNT has shut down.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "locofy": {
+    "price": "Hobby USD 40/month; 7-day free trial",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.locofy.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "LDMtokens are proprietary design credits",
+    "verification_status": "published_price_or_free_access"
+  },
+  "lofty": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://lofty.com/price-packages"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Separate add-on prices do not establish total platform cost.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "logoai": {
+    "price": "USD 20/month (Pro)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.logoai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "USD 10 seven-day trial excluded from recurring price.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "lokalise": {
+    "price": "From USD 149/month (Explorer)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://lokalise.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Billing term not exposed with extracted plan price.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "looka": {
+    "price": "Free logo previews; paid logo download/annual Brand Kit price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://looka.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Logo downloads are one-time purchases; Brand Kit billed annually",
+    "verification_status": "needs_verification"
+  },
+  "lovable": {
+    "price": "Free; Pro USD 25/workspace/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://lovable.dev/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ltx-studio": {
+    "price": "Free limited; Lite USD 15/month (USD 12 billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://ltx.io/studio/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ludo-ai": {
+    "price": "USD 15/month (billed annually; USD 180/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://ludo.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "luma-ai": {
+    "price": "USD 30/month (Plus); USD 25/month equivalent (USD 300/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://lumalabs.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Annual equivalent calculated from annual total; site also shows monthly price.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "luma-dream-machine": {
+    "price": "USD 30/month (Plus); USD 25/month equivalent (USD 300/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://lumalabs.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "luma-genie": {
+    "price": "Legacy Genie price and current availability unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://lumalabs.ai/genie"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Do not assign Dream Machine video prices to the 3D Genie product",
+    "verification_status": "needs_verification"
+  },
+  "luminance": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.luminance.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise contract platform sold through demos; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "luxury-presence": {
+    "price": "Contact sales for a quote; public monthly amount unavailable",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.luxurypresence.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Custom website and growth offerings; no universal public price confirmed",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "magic-patterns": {
+    "price": "Free limited; Starter USD 20/seat/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.magicpatterns.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "magicschool": {
+    "price": "Free; Plus USD 12.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.magicschool.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "magicslides": {
+    "price": "Essential USD 8/month; USD 6.67/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.magicslides.app/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "magnific": {
+    "price": "Premium USD 20/month; USD 14.50/month annual option",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.magnific.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current combined platform; legacy standalone plan not assumed.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "mailmaestro": {
+    "price": "USD 12/seat/month (annual billing)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.maestrolabs.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "make": {
+    "price": "Free; Core USD 9/month (annual billing option shown)",
+    "price_per_token": "Provider-dependent for AI features; operation credits separate",
+    "sources": [
+      "https://www.make.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Automation credits are not tokens.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "marketmuse": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.marketmuse.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "mastra": {
+    "price": "Free framework/Starter cloud; Teams USD 250/month + usage",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://mastra.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "mathpix": {
+    "price": "Free Snip; Pro from USD 4.99/month; OCR API from USD 0.002/image",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://mathpix.com/pricing/all"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "medius": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.medius.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "meetgeek": {
+    "price": "Free Basic; Pro USD 15.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://meetgeek.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Confirm billing term at checkout.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "mem": {
+    "price": "Free limited; Plus USD 9/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://get.mem.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "meshy": {
+    "price": "Free; Pro USD 20/month (standard renewal)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.meshy.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "First-month USD 10 promotion excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "meta-ai": {
+    "price": "Free everyday use; Meta One upgrade price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Core and Premium rollout announced without public numeric amount",
+    "verification_status": "needs_verification"
+  },
+  "metaview": {
+    "price": "Free limited; AI Sourcing Pro USD 100/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.metaview.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Product-specific sourcing plan; note-taking pricing can differ.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "microsoft-copilot": {
+    "price": "Free; Microsoft 365 Personal USD 9.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.microsoft.com/en-us/copilot/work/individuals"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "microsoft-designer": {
+    "price": "Free; Microsoft 365 Personal USD 9.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.microsoft.com/en-us/microsoft-365/microsoft-designer"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "microsoft-translator": {
+    "price": "Free app (USD 0/month); Azure API billed separately by characters",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.microsoft.com/en-us/translator/blog/2023/02/28/introducing-the-redesigned-microsoft-translator-app-for-ios/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "midjourney": {
+    "price": "Basic USD 10/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "mito": {
+    "price": "Free open-source edition; Pro monthly price unavailable to verify",
+    "price_per_token": "Provider-dependent; bring your own model/inference",
+    "sources": [
+      "https://www.trymito.io"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Optional external inference/provider costs additional",
+    "verification_status": "needs_verification"
+  },
+  "motion": {
+    "price": "Pro AI advertised from USD 19/seat/month; billing term and availability require checkout verification (needs verification)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.usemotion.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Public page has monthly/annual toggles and hidden unavailable-plan text; do not treat as confirmed monthly-billed amount",
+    "verification_status": "needs_verification"
+  },
+  "mubert": {
+    "price": "Free limited; Creator USD 14/month (non-commercial)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://mubert.com/render/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial Pro USD 39/month.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "munch": {
+    "price": "USD 38/month (Essential; billed annually USD 456/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.munchstudio.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "murf": {
+    "price": "Free trial; Creator USD 19/month equivalent, billed USD 228 annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://murf.ai/blog/content-creator-tools"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "n8n": {
+    "price": "Free self-hosted Community edition; hosted Starter EUR 20/month, billed annually",
+    "price_per_token": "Provider-dependent; external model API fees are separate",
+    "sources": [
+      "https://n8n.io/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Self-hosting and external API costs extra",
+    "verification_status": "published_price_or_free_access"
+  },
+  "nabla": {
+    "price": "USD 119/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://help.nabla.com/en/articles/10692354"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "nanonets": {
+    "price": "USD 100/month for 100 credits after trial",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://nanonets.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Usage-based credits; USD 50 introductory credits excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "neuronwriter": {
+    "price": "USD 23/month (Bronze)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://neuronwriter.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "nooks": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.nooks.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "notable-health": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.notablehealth.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise health-system platform offered through sales; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "notebooklm": {
+    "price": "Free; Google AI Plus USD 7.99/month (US)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "notion-ai": {
+    "price": "USD 20/member/month (Business; billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.notion.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Free/Plus offer AI trials; Business selected for ongoing Notion AI.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "numeric": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.numeric.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "numerous-ai": {
+    "price": "USD 10/month (billed annually)",
+    "price_per_token": "Not comparable: proprietary tokens, not model input/output tokens",
+    "sources": [
+      "https://numerous.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor uses proprietary tokens/credits linked to character allowance; not LLM tokens.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "obsidian": {
+    "price": "USD 0/month core; optional Sync USD 5/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://obsidian.md/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ocoya": {
+    "price": "USD 29/month (Starter; plus VAT where applicable)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.ocoya.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ollama": {
+    "price": "Free local; Pro USD 20/month; cloud pay-as-you-go also available",
+    "price_per_token": "Cloud rates vary by model; local inference has no token fee",
+    "sources": [
+      "https://ollama.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "open-webui": {
+    "price": "Free self-hosted; enterprise licensing by quote",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://github.com/open-webui/docs/blob/main/docs/license.mdx"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "openai-agents-sdk": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://github.com/openai/openai-agents-python/blob/main/pyproject.toml"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "MIT SDK has no separate license charge; model API and infrastructure charges are separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "openai-codex": {
+    "price": "Free limited desktop access; Go USD 8/month; Plus USD 20/month for CLI/web/IDE",
+    "price_per_token": "API-key use billed separately at selected model rates; subscription has no universal dollar/token rate",
+    "sources": [
+      "https://learn.chatgpt.com/docs/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Plan and rollout limits apply",
+    "verification_status": "published_price_or_free_access"
+  },
+  "openai-tts": {
+    "price": "Usage-based; GPT-4o Mini TTS approximately USD 0.015/audio minute; no fixed monthly plan",
+    "price_per_token": "GPT-4o Mini TTS: USD 0.60 per 1M input text tokens; USD 12 per 1M output audio tokens",
+    "sources": [
+      "https://developers.openai.com/api/docs/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Audio and text token rates differ",
+    "verification_status": "published_price_or_free_access"
+  },
+  "openhands": {
+    "price": "Free self-hosted; Teams USD 500/month (up to 10 users)",
+    "price_per_token": "Provider-dependent; bring your own model API key",
+    "sources": [
+      "https://www.openhands.dev/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "openrouter": {
+    "price": "Free models available; paid models pay-as-you-go + 5.5% Standard fee",
+    "price_per_token": "Varies by model/provider; free models USD 0, paid model rates plus platform fee",
+    "sources": [
+      "https://openrouter.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "opus-clip": {
+    "price": "Free limited; Starter USD 15/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.opus.pro/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "originality-ai": {
+    "price": "Pro USD 12.95/month (billed annually USD 155.40)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://originality.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "100 one-time free credits; not unlimited recurring free access.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "otter-ai": {
+    "price": "Free Basic; Pro USD 16.99/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://otter.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "outreach": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.outreach.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "pandas-ai": {
+    "price": "Free community software; enterprise licensing by quote",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://github.com/sinaptik-ai/pandas-ai/blob/main/LICENSE"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "paradox-olivia": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.paradox.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise recruiting platform purchased through demos; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "paxton-ai": {
+    "price": "USD 499/user/month; USD 249.92/month equivalent (USD 2999/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.paxton.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "pencil": {
+    "price": "USD 14/month (Core)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://trypencil.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "perplexity": {
+    "price": "Free; Pro USD 20/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.perplexity.ai/enterprise/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "phenom": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.phenom.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "photomath": {
+    "price": "Free; Plus USD 9.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://photomath.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "photoroom": {
+    "price": "Free; Pro USD 12.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.photoroom.com/blog/photoroom-vs-vistacreate"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "photoshop-generative-fill": {
+    "price": "Photography bundle USD 19.99/month, annual commitment; Photoshop standalone USD 22.99/month, annual commitment",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.adobe.com/products/photoshop/plans.html?msockid=3f080317b17e68fe326d1586b0f26963"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "US regional pricing; 7-day trial",
+    "verification_status": "published_price_or_free_access"
+  },
+  "pictory": {
+    "price": "Starter USD 25/month; free trial",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://kb.pictory.ai/en/articles/8468882-need-help-with-the-pricing-calculation"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "pika": {
+    "price": "Starter USD 10/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://pika.art/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "pipecat": {
+    "price": "Free open-source software; deployment/model usage extra",
+    "price_per_token": "Provider-dependent; model and audio services billed separately",
+    "sources": [
+      "https://www.pipecat.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Team joining Deepgram; do not assume legacy cloud plan amounts.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "pixelcut": {
+    "price": "Free; Pro USD 10/month (USD 8 billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.pixelcut.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "playground": {
+    "price": "Free limited; Pro USD 15/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://playgroundai.com/design/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "playwright-mcp": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/microsoft/playwright-mcp"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Apache-licensed downloadable browser integration server.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "plus-ai": {
+    "price": "USD 15/user/month (Basic); USD 10 billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://plusai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "podcastle": {
+    "price": "Free limited; Async Essentials USD 19.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://help.async.com/en/articles/6535067-how-does-async-creator-pricing-work"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "postiz": {
+    "price": "Free self-hosted; cloud from USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://postiz.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "predis-ai": {
+    "price": "USD 32/month (Core); USD 19.17/month equivalent (USD 230/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://predis.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "presentations-ai": {
+    "price": "Free limited; Pro USD 20/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.presentations.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "prowritingaid": {
+    "price": "Free; Premium USD 30/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://prowritingaid.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "puzzle": {
+    "price": "USD 30/month (Starter; annual billing option shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://puzzle.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "pydantic-ai": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://pydantic.dev/docs/ai/overview/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Open-source agent framework; optional Logfire and model-provider charges are separate products.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "qodo": {
+    "price": "Usage-based: USD 0.012/credit; 2500-credit pack USD 30",
+    "price_per_token": "N/A - review credits are not model tokens",
+    "sources": [
+      "https://www.qodo.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Credit-pack cost calculated; reviews consume variable credits.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "quillbot": {
+    "price": "Free; Premium USD 19.95/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://quillbot.com/blog/frequently-asked-questions/is-it-worth-paying-for-quillbot/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "quizlet": {
+    "price": "Free; Plus monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://help.quizlet.com/hc/en-ca/articles/360041181691-Subscribing-to-Quizlet"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Checkout and regional pricing not publicly retrievable",
+    "verification_status": "needs_verification"
+  },
+  "qventus": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.qventus.com/wp-content/uploads/2024/10/Qventus_Report_KLAS-Emerging-Solution-Spotlight.pdf"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Subscription plus implementation fees; no public current amount verified.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "ramp": {
+    "price": "Free; Plus USD 15/user/month + variable platform fee",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://ramp.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "rask-ai": {
+    "price": "USD 39/month (25 minutes)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.rask.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "real-esrgan": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/xinntao/Real-ESRGAN"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "BSD-licensed downloadable restoration software.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "rechat": {
+    "price": "Contact sales; brokerage-specific example USD 30/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://c21redwood.helpscoutdocs.com/article/288-getting-started-with-rechat"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "USD 30 is C21 Redwood's arrangement, not a universal vendor price.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "reclaim-ai": {
+    "price": "Free Lite; Starter USD 12/seat/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://reclaim.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "recraft": {
+    "price": "Free; Basic monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.recraft.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Public pricing page omits numerical subscription amounts",
+    "verification_status": "needs_verification"
+  },
+  "reducto": {
+    "price": "Usage-based: r-1 mini USD 1/1000 pages; no fixed monthly amount",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://reducto.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "USD 150 introductory usage excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "reflect": {
+    "price": "Free on Mac; iOS subscription price varies by App Store region",
+    "price_per_token": "Provider-dependent; bring your own API key",
+    "sources": [
+      "https://reflect.app#pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current product; optional AI requires own API key",
+    "verification_status": "published_price_or_free_access"
+  },
+  "regie-ai": {
+    "price": "Free CRM/limited credits; Pro USD 49/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://regie.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "relume": {
+    "price": "Free; Pro from USD 14/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.relume.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Custom domain hosting from USD 12/project/month extra.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "remove-bg": {
+    "price": "Free basic use; subscription USD 9/month for 40 credits; pay-as-you-go USD 3/3 credits",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.remove.bg/pricing.visit_help_center"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "replicate": {
+    "price": "Usage-based; e.g. FLUX Schnell USD 0.003/image; no fixed monthly plan",
+    "price_per_token": "DeepSeek-R1 example: USD 3.75 input / USD 10 output per 1M tokens",
+    "sources": [
+      "https://replicate.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Rates vary by model and hardware",
+    "verification_status": "published_price_or_free_access"
+  },
+  "replit": {
+    "price": "Free limited; Core USD 20/month",
+    "price_per_token": "Model/task-dependent usage; included credits are not a fixed token allotment",
+    "sources": [
+      "https://replit.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "replit-ghostwriter": {
+    "price": "Legacy product; current Replit Core USD 20/month",
+    "price_per_token": "No standalone token rate; successor usage model varies",
+    "sources": [
+      "https://replit.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No standalone Ghostwriter price; successor plan shown explicitly.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "resemble-ai": {
+    "price": "USD 0/month + usage (Flex); Team USD 350/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.resemble.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current page emphasizes detection; voice generation rates need separate selection.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "resemble-enhance": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/resemble-ai/resemble-enhance"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "MIT-licensed downloadable audio-enhancement software.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "resimpli": {
+    "price": "Solo USD 249/month, billed annually; 14-day trial",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://resimpli.com/pricing-/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "resume-worded": {
+    "price": "Free; Pro USD 49/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.resumeworded.com/get-pro.php"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "retell-ai": {
+    "price": "Usage-based voice USD 0.07-0.31/min; no fixed subscription required",
+    "price_per_token": "N/A - voice LLM charges quoted per minute, not per token",
+    "sources": [
+      "https://appear.retellai.com/about-us"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Actual total varies by voice/model/telephony configuration",
+    "verification_status": "published_price_or_free_access"
+  },
+  "rev": {
+    "price": "Free limited; Essentials USD 29.99/seat/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.rev.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "reverso": {
+    "price": "Free; Premium EUR 9.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://documents.reverso.net/Pricing.aspx?lang=en&origin=1"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "rezi": {
+    "price": "Free; Pro USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.rezi.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "rillet": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.rillet.com/talk-to-sales"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Implementation fee is separate from recurring subscription.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "riverside-fm": {
+    "price": "Free limited; Pro USD 24/month equivalent (USD 288/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://riverside.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "robin-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://robinai.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial legal platform offered through demos; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "rodin": {
+    "price": "USD 0/month + USD 1.50/credit (pay-as-you-go)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://hyper3d.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Generation can be previewed free; confirmed/exported results use credits.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "roo-code": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://github.com/RooCodeInc/Roo-Code"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Apache-licensed editor extension; external model charges excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "rosebud-ai": {
+    "price": "Free; Indie Dev USD 15/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://rosebud.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "rows": {
+    "price": "Free; Plus USD 8/user/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://rows.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Rows has joined Superhuman; confirm current signup availability.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "runway": {
+    "price": "Free limited; Standard USD 15/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://runway.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "rytr": {
+    "price": "Free; Lite USD 9/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://rytr.me/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "salesloft": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.salesloft.com/see-it-live"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial sales platform sold through consultation; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "sapling": {
+    "price": "Free; Pro USD 25/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://sapling.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "scenario": {
+    "price": "Starter USD 15/month (annual billing option shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.scenario.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "schoolai": {
+    "price": "Free limited; school/district pricing by quote",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://schoolai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "scispace": {
+    "price": "Free limited tier; Premium monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://scispace.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Editor pricing is a different product and was not substituted",
+    "verification_status": "needs_verification"
+  },
+  "screenshot-to-code": {
+    "price": "Free local software; hosted subscription price not verified",
+    "price_per_token": "Provider-dependent; local tool uses separately billed model API",
+    "sources": [
+      "https://github.com/abi/screenshot-to-code"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "scribeberry": {
+    "price": "Pro $99/month (currency not specified; confirm USD/CAD) (needs verification)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://scribeberry.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Currency shown as dollar sign on Canadian vendor page; confirm USD/CAD at checkout.",
+    "verification_status": "needs_verification"
+  },
+  "seekout": {
+    "price": "USD 179/month (Recruit Core); USD 149 billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.seekout.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "seo-ai": {
+    "price": "USD 149/month (Single Site)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://seo.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "shortwave": {
+    "price": "Business USD 30/seat/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.shortwave.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "sierra": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://sierra.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "simplified": {
+    "price": "USD 79/month (Starter)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://simplified.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "simplify-jobs": {
+    "price": "Free basic tools; paid monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://simplify.jobs"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current site confirms subscriptions without retrievable amount",
+    "verification_status": "needs_verification"
+  },
+  "skyvern": {
+    "price": "Free self-hosted; cloud Hobby USD 29/month",
+    "price_per_token": "Model/provider-dependent for self-hosted; cloud credits not tokens",
+    "sources": [
+      "https://www.skyvern.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "slidesai": {
+    "price": "Free; Pro USD 10/user/month (billed annually USD 120/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.slidesai.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "smolagents": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://huggingface.co/docs/smolagents/index"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Open-source Python library; Hugging Face platform fees do not apply to the library itself.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "sora": {
+    "price": "Current subscription unavailable to verify; Sora 2 API retired September 24, 2026",
+    "price_per_token": "N/A - Sora 2 API retired; video billed by duration historically",
+    "sources": [
+      "https://developers.openai.com/api/docs/deprecations"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "API retirement confirmed; no current app subscription price verified",
+    "verification_status": "needs_verification"
+  },
+  "soundraw": {
+    "price": "Creator USD 16.99/month list price; discounts available",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://soundraw.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Displayed discount USD 11.04 depends on billing/promotion.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "sourcegraph": {
+    "price": "From USD 1333.33/month equivalent (USD 16000 minimum annual contract)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://sourcegraph.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "sourcegraph-cody": {
+    "price": "From USD 1333.33/month equivalent (USD 16000 minimum annual contract)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://sourcegraph.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current enterprise platform; legacy standalone Cody plans not priced separately.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "sourcery": {
+    "price": "Free for open-source; Pro USD 15/developer/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.sourcery.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "spark-mail": {
+    "price": "Free; Plus USD 10/user/month (billed annually USD 120/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://sparkmailapp.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "speak": {
+    "price": "Free previews; Premium monthly price varies by region/platform, unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.speak.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "7-day trial; region-specific checkout required",
+    "verification_status": "needs_verification"
+  },
+  "speechify": {
+    "price": "Free; Premium USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://speechify.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "spellbook": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://spellbook.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "spline": {
+    "price": "Free limited; Hobby USD 15/seat/month (USD 12 billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://spline.design/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "spotlight-reporting": {
+    "price": "Current lowest monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.spotlightreporting.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Indexed NZ advisor Basic NZD 329/month does not establish lowest Business plan",
+    "verification_status": "needs_verification"
+  },
+  "stable-audio": {
+    "price": "Free signup; current paid monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://stableaudio.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current Stable Audio 3 pricing page did not return numerical amounts",
+    "verification_status": "needs_verification"
+  },
+  "stable-diffusion": {
+    "price": "Free self-hosted Community license under USD 1M annual revenue; enterprise contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://stability.ai/license"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Hardware/cloud costs extra; hosted API billed separately",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "stable-diffusion-webui": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Downloadable AGPL interface; model licensing and compute remain separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "stagehand": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://github.com/browserbase/stagehand/blob/main/README.md"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "MIT-licensed SDK; model API and optional Browserbase service costs are separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "stager-ai": {
+    "price": "Subscription required; monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://stagerai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Pricing loads dynamically; photo credits are not tokens",
+    "verification_status": "needs_verification"
+  },
+  "studyfetch": {
+    "price": "Free signup; paid monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.studyfetch.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Current public numerical plan amount not retrievable",
+    "verification_status": "needs_verification"
+  },
+  "styldod": {
+    "price": "Virtual staging from USD 16/image; no monthly subscription required",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.styldod.com/virtual-staging"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "sudowrite": {
+    "price": "USD 10/month (Hobby & Student; annual billing option shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://sudowrite.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "suki-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://app.suki.ai/technology-services-agreement"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No public current monthly subscription amount verified.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "sully-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.sully.ai/terms-of-service"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Subscription billing terms and commercial product offering; paid classification inferred, no public ongoing free tier verified.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "summarize-tech": {
+    "price": "Current monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.summarize.tech"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor page returned HTTP 503 and search found no current official price",
+    "verification_status": "needs_verification"
+  },
+  "suno": {
+    "price": "Free; Pro USD 8/month (billed yearly)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://suno.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "sunsama": {
+    "price": "USD 22/month (Pro)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.sunsama.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "superhuman": {
+    "price": "Mail Starter USD 30/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://help.superhuman.com/hc/en-us/articles/46178817646861-Pricing-Plans"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "supermaven": {
+    "price": "Free; Pro USD 10/month",
+    "price_per_token": "Chat model rates vary; USD 5 monthly chat credits included",
+    "sources": [
+      "https://supermaven.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "surfer-seo": {
+    "price": "Standard USD 99/month (billed yearly); AI Search Analytics USD 82/month annual",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://surfer.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Standard includes writing; analytics-only entry plan separated.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "surya": {
+    "price": "Free local software; hosted pay-as-you-go or Team USD 400/month",
+    "price_per_token": "N/A - document processors priced by usage, not text tokens",
+    "sources": [
+      "https://www.datalab.to/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Local commercial license restrictions may apply; hosted processor rates separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "synthesia": {
+    "price": "Free; Starter USD 19/month standard renewal",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.synthesia.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "First-month USD 9 promotion excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "synthflow": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://synthflow.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "tabnine": {
+    "price": "Contact sales (now redirects to Tricentis)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.tricentis.com/contact-us?utm_source=www.tabnine.com&utm_medium=referral&utm_campaign=redirect"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No current standalone Tabnine monthly price verified.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "tailor-brands": {
+    "price": "Logo subscription monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.tailorbrands.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "LLC formation pricing is a different service and was not substituted",
+    "verification_status": "needs_verification"
+  },
+  "tana": {
+    "price": "Free; Pro USD 15/member/month (billed yearly)",
+    "price_per_token": "Bring-your-own Claude/ChatGPT subscription; no independent token rate",
+    "sources": [
+      "https://tana.inc/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "taplio": {
+    "price": "Starter USD 39/month; Growth USD 69/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://taplio.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Confirm AI generation entitlement; Starter focuses on scheduling/analytics.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "taskade": {
+    "price": "Free; Starter USD 6/month (billed yearly USD 72; 3 users)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.taskade.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "tavus": {
+    "price": "Free developer tier; Starter USD 59/month plus usage overages (needs verification)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.tavus.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Developer CVI plan. Page also includes older Starter USD 22 and consumer PAL USD 20 sections; current developer plan card states USD 59. Confirm checkout.",
+    "verification_status": "needs_verification"
+  },
+  "teachbetter-ai": {
+    "price": "INR 299/month (Teacher)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://teachbetter.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor USD equivalents are indicative; preserve actual INR price.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "teachmate": {
+    "price": "Free limited; Pro GBP 7.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.teachmate.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "teal": {
+    "price": "Free; Teal+ USD 29/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://help.tealhq.com/en/articles/9530153-teal-vs-teal"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "tennr": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.tennr.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial healthcare operations platform sold through sales; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "textio": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.textio.com"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "tidio": {
+    "price": "Starter USD 24.17/month (annual billing option shown); AI usage extra",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.tidio.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Includes only 50 one-off Lyro AI conversations; recurring AI agent allowance is separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "tipalti": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://tipalti.com/en-uk/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Subscription plus transaction fees; no public amount verified.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "tldraw-make-real": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://tldraw.dev/blog/make-real-the-story-so-far"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Public prototype uses the user's own model API key without a separate tool subscription; model charges and SDK production licensing are separate. Repository is now archived.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "tldv": {
+    "price": "Free; Pro USD 18/seat/month, billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://tldv.io/app/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "together-ai": {
+    "price": "Usage-based API; no fixed monthly subscription",
+    "price_per_token": "Example GLM-5.3-Flash: USD 0.15 input / USD 0.50 output per 1M tokens; cached input USD 0.03/1M",
+    "sources": [
+      "https://www.together.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Example standard rate; other models differ.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "topaz-gigapixel": {
+    "price": "Personal USD 29/month; USD 19/month with 12-month commitment",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.topazlabs.com/topaz-gigapixel"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "topaz-photo-ai": {
+    "price": "Topaz Photo Personal USD 25/month with annual commitment; introductory discount available",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.topazlabs.com/topaz-photo"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Photo AI successor; standard renewal listed",
+    "verification_status": "published_price_or_free_access"
+  },
+  "topaz-video-ai": {
+    "price": "Personal USD 59/month; USD 39/month with 12-month commitment",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.topazlabs.com/topaz-video"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "tortus-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://tortus.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "trae": {
+    "price": "Lite USD 3/month",
+    "price_per_token": "Model-dependent rates deducted from subscription balance; no single token price",
+    "sources": [
+      "https://www.trae.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Model-dependent token charges consume plan Dollar Usage",
+    "verification_status": "published_price_or_free_access"
+  },
+  "tripo": {
+    "price": "Free; Starter USD 5/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.tripo3d.ai/product-doc/getting-started/pricing-credits"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "trolto": {
+    "price": "USD 59/month (Starter)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://trolto.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "turnitin": {
+    "price": "Contact sales - institutional quote; no individual monthly plan",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://guides.turnitin.com/hc/en-us/articles/37985974637453-How-to-purchase-a-Turnitin-subscription"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "twee": {
+    "price": "Free tier; Basic/Pro monthly prices unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://twee.com/terms-of-service"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Plans confirmed; numerical prices available inside account pricing",
+    "verification_status": "needs_verification"
+  },
+  "udio": {
+    "price": "Free limited tier; Standard approximately USD 10/month in vendor billing documentation (needs verification)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://help.udio.com/en/articles/10739199-changing-or-canceling-your-subscription"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Vendor billing example; exact current checkout price unavailable",
+    "verification_status": "needs_verification"
+  },
+  "uizard": {
+    "price": "Free; Pro USD 12/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://uizard.io/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "undetectable-ai": {
+    "price": "USD 9.99/month (10K words)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://undetectable.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "unity-ai": {
+    "price": "USD 10/month for Personal Edition users; included with eligible paid Unity plans",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://unity.com/features/ai"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "unstructured": {
+    "price": "Free open-source; hosted USD 0.015/page after 10000 trial pages",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://unstructured.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "upscayl": {
+    "price": "Free desktop; Cloud Pro USD 24.99/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://upscayl.org/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ux-pilot": {
+    "price": "Free; Pro USD 29/month (USD 19 billed yearly)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://uxpilot.ai/ai-instructions"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "v0": {
+    "price": "Free; Plus USD 30/user/month (advertised offer; USD 90 crossed out)",
+    "price_per_token": "v0 Mini: USD 0.20 input / USD 1.20 output per 1M tokens; cache write USD 0.25, cache read USD 0.02",
+    "sources": [
+      "https://v0.app/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Paid usage consumes credits; verify offer at checkout",
+    "verification_status": "published_price_or_free_access"
+  },
+  "vapi": {
+    "price": "USD 0.05/min hosting plus model/telephony costs; optional Core USD 29/month; USD 5 trial credit",
+    "price_per_token": "Selected model provider rates passed through at cost",
+    "sources": [
+      "https://vapi.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "No fixed monthly cost required",
+    "verification_status": "published_price_or_free_access"
+  },
+  "veed": {
+    "price": "Free; Lite USD 24/seat/month",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.veed.io/learn/how-to-use-hailuo"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "vercel-ai-sdk": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "Provider-dependent; model API billed separately",
+    "sources": [
+      "https://ai-sdk.dev"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Open-source application toolkit; hosting and model usage are separate costs.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "vic-ai": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.vic.ai/request-demo"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Commercial finance platform sold through discovery meetings; paid classification inferred.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "vizard": {
+    "price": "Free (60 credits/month); Creator monthly price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://vizard.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Paid plan displays uninitialized USD 0 placeholders; not treated as free",
+    "verification_status": "needs_verification"
+  },
+  "vllm": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://docs.vllm.ai/en/latest/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Open-source local inference-serving engine; compute costs excluded.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "wan": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/Wan-Video/Wan2.2"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Classification applies to downloadable open model and inference code, not the hosted website or later commercial models. Local compute costs separate.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "warp": {
+    "price": "Free; paid USD 20/month including USD 20 model usage",
+    "price_per_token": "Varies by selected model; usage at API rates",
+    "sources": [
+      "https://www.warp.dev/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "wayground": {
+    "price": "Free Starter; Individual Super price unavailable to verify",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://help.wayground.com/support/solutions/articles/158000404040-wayground-individual-super-plan"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Regional and institutional plans vary",
+    "verification_status": "needs_verification"
+  },
+  "weglot": {
+    "price": "Free; Starter EUR 15/month + VAT",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.weglot.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "wellsaid": {
+    "price": "USD 10/month (Starter; billed annually USD 120/year)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.wellsaid.io/ai-voice-pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "whisper": {
+    "price": "USD 0/month (software; hosting/model costs extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://github.com/openai/whisper"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Code and model weights are downloadable under the MIT license.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "windsurf": {
+    "price": "Free; Pro USD 20/month (current Devin Desktop)",
+    "price_per_token": "Varies by model; extra usage at API rates",
+    "sources": [
+      "https://devin.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "winston-ai": {
+    "price": "Free limited; Essential USD 18/month standard list price",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://gowinston.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Annual and coupon discounts excluded from monthly list price.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "wordtune": {
+    "price": "Free; Advanced USD 6.99/month annual list price (USD 4.89 promotion shown)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.wordtune.com/plans"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Confirm offer eligibility and renewal price at checkout.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "workable": {
+    "price": "From USD 299/month (Standard; 1-20 employees)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.workable.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Amount varies by company size and billing commitment.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "writesonic": {
+    "price": "USD 79/month (Starter; billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://writesonic.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "yellow-ai": {
+    "price": "Free 500 resolutions/month; then USD 0.99/resolution",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://yellow.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Enterprise custom pricing.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "ylopo": {
+    "price": "Contact sales",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.ylopo.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Database size and services determine quote; calculator ad spend is not a subscription price.",
+    "verification_status": "quote_or_license_dependent"
+  },
+  "zapier": {
+    "price": "Free; Professional from USD 19.99/month (billed annually)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://zapier.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "zed": {
+    "price": "Free; Pro USD 10/month (USD 5 token credit included)",
+    "price_per_token": "Varies by model; additional tokens billed at usage rates",
+    "sources": [
+      "https://zed.dev/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "zendesk-ai": {
+    "price": "Suite Team USD 69/agent/month (AI agents included; usage extra)",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.zendesk.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "Basic Support is not equivalent to AI-enabled Suite.",
+    "verification_status": "published_price_or_free_access"
+  },
+  "zeni": {
+    "price": "From USD 549/month (Starter); USD 494/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.zeni.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  },
+  "zerogpt": {
+    "price": "Free; Pro USD 13.99/month; USD 8.99/month billed annually",
+    "price_per_token": "N/A - no separately published token rate",
+    "sources": [
+      "https://www.zerogpt.com/es/welcome"
+    ],
+    "checked_on": "2026-11-08",
+    "notes": "",
+    "verification_status": "published_price_or_free_access"
+  }
+}

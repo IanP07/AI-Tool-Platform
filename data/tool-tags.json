@@ -1,0 +1,183 @@
+{
+  "tags": [
+    "3d-game-development",
+    "ai-development",
+    "app-website-building",
+    "audio-music",
+    "chat-assistants",
+    "clinical-documentation-care",
+    "coding",
+    "customer-support",
+    "data-analysis",
+    "design-branding",
+    "document-processing",
+    "education-learning",
+    "finance-accounting",
+    "image-creation-editing",
+    "legal-contract-work",
+    "marketing-seo",
+    "meetings-transcription",
+    "presentations",
+    "productivity-knowledge",
+    "property-management-marketing",
+    "recruiting-careers",
+    "research",
+    "sales-outreach",
+    "translation-localization",
+    "video-creation-editing",
+    "voice-assistants",
+    "workflow-automation",
+    "writing-editing"
+  ],
+  "use_case_map": {
+    "ai-code-editor": "coding",
+    "coding-agent": "coding",
+    "code-review": "coding",
+    "image-to-code": "coding",
+    "build-app-from-prompt": "app-website-building",
+    "run-llms-locally": "ai-development",
+    "build-ai-agents": "ai-development",
+    "api-llm-access": "ai-development",
+    "workflow-automation": "workflow-automation",
+    "browser-agent": "workflow-automation",
+    "voice-agents": "voice-assistants",
+    "general-assistant": "chat-assistants",
+    "deep-research": "research",
+    "chat-with-documents": "document-processing",
+    "document-data-extraction": "document-processing",
+    "summarize-content": "document-processing",
+    "meeting-notes": "meetings-transcription",
+    "transcription": "meetings-transcription",
+    "text-to-speech": "audio-music",
+    "music-generation": "audio-music",
+    "audio-cleanup": "audio-music",
+    "generate-images": "image-creation-editing",
+    "edit-images": "image-creation-editing",
+    "remove-background": "image-creation-editing",
+    "upscale-images": "image-creation-editing",
+    "logo-and-brand": "design-branding",
+    "ui-design": "design-branding",
+    "text-to-video": "video-creation-editing",
+    "ai-video-editing": "video-creation-editing",
+    "long-to-short-clips": "video-creation-editing",
+    "subtitles-and-captions": "video-creation-editing",
+    "ai-avatars": "video-creation-editing",
+    "translation": "translation-localization",
+    "video-dubbing": "translation-localization",
+    "write-content": "writing-editing",
+    "grammar-and-editing": "writing-editing",
+    "ai-detection-and-humanize": "writing-editing",
+    "marketing-copy": "marketing-seo",
+    "seo-content": "marketing-seo",
+    "social-media-posts": "marketing-seo",
+    "email-assistant": "productivity-knowledge",
+    "notes-and-knowledge": "productivity-knowledge",
+    "presentations": "presentations",
+    "spreadsheets-and-data": "data-analysis",
+    "customer-support-bot": "customer-support",
+    "sales-and-outreach": "sales-outreach",
+    "learning-and-tutoring": "education-learning",
+    "3d-generation": "3d-game-development",
+    "game-dev": "3d-game-development",
+    "resume-and-career": "recruiting-careers"
+  },
+  "market_map": {
+    "accounting": "finance-accounting",
+    "expense-management": "finance-accounting",
+    "finance": "finance-accounting",
+    "ad-creative": "marketing-seo",
+    "marketing": "marketing-seo",
+    "copywriting": "writing-editing",
+    "coding": "coding",
+    "no-code": "app-website-building",
+    "contact-center": "customer-support",
+    "customer-support": "customer-support",
+    "design": "design-branding",
+    "education": "education-learning",
+    "film-tv": "video-creation-editing",
+    "video": "video-creation-editing",
+    "podcasting": "audio-music",
+    "healthcare": "clinical-documentation-care",
+    "hr": "recruiting-careers",
+    "recruiting": "recruiting-careers",
+    "knowledge-management": "productivity-knowledge",
+    "productivity": "productivity-knowledge",
+    "legal": "legal-contract-work",
+    "real-estate": "property-management-marketing",
+    "sales": "sales-outreach"
+  },
+  "csv_category_map": {
+    "3D AI": "3d-game-development",
+    "AI Platform": "ai-development",
+    "Audio AI": "audio-music",
+    "Chatbot": "chat-assistants",
+    "Coding Assistant": "coding",
+    "Data Science AI": "data-analysis",
+    "Design AI": "design-branding",
+    "Image Generation": "image-creation-editing",
+    "Marketing AI": "marketing-seo",
+    "Meeting AI": "meetings-transcription",
+    "Productivity": "productivity-knowledge",
+    "Research AI": "research",
+    "Search AI": "research",
+    "Translation AI": "translation-localization",
+    "Video AI": "video-creation-editing",
+    "Voice AI": "audio-music",
+    "Writing Assistant": "writing-editing"
+  },
+  "tool_overrides": {
+    "elevenlabs": [
+      "audio-music"
+    ],
+    "pika": [
+      "video-creation-editing"
+    ],
+    "kapwing": [
+      "video-creation-editing"
+    ],
+    "veed": [
+      "video-creation-editing"
+    ],
+    "luma-dream-machine": [
+      "video-creation-editing"
+    ],
+    "luma-ai": [
+      "image-creation-editing",
+      "video-creation-editing",
+      "audio-music"
+    ],
+    "photoroom": [
+      "image-creation-editing"
+    ],
+    "clipdrop": [
+      "image-creation-editing"
+    ],
+    "runway": [
+      "video-creation-editing"
+    ],
+    "heygen": [
+      "video-creation-editing"
+    ],
+    "meetgeek": [
+      "meetings-transcription"
+    ],
+    "fathom": [
+      "meetings-transcription"
+    ],
+    "otter-ai": [
+      "meetings-transcription"
+    ],
+    "fireflies-ai": [
+      "meetings-transcription"
+    ],
+    "tl-dv": [
+      "meetings-transcription"
+    ],
+    "bardeen": [
+      "workflow-automation"
+    ],
+    "basedash": [
+      "data-analysis"
+    ]
+  }
+}

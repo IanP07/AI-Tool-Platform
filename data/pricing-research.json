@@ -1,0 +1,1775 @@
+{
+  "abacum": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.abacum.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Sales-led enterprise platform with demo-based purchasing; paid classification inferred from commercial offering."
+  },
+  "abridge": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.abridge.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise healthcare deployment sold through vendor contact; paid classification inferred from commercial offering."
+  },
+  "activepieces": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.activepieces.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Recurring free credits alongside paid Plus and Business plans."
+  },
+  "ai-homedesign": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://aihomedesign.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly and annual subscriptions; introductory photos are trial credits."
+  },
+  "aider": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://aider.chat"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Local coding tool is available without a software subscription; model-provider usage can cost extra."
+  },
+  "almanack": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.almanack.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Ongoing Free tier and paid Pro/team tiers."
+  },
+  "amazon-q-developer": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://aws.amazon.com/q/developer/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Perpetual Free tier and paid Pro tier."
+  },
+  "ambience-healthcare": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.ambiencehealthcare.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Sales-led health-system deployment; paid classification inferred from enterprise offering."
+  },
+  "amplemarket": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.amplemarket.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Startup subscription with annual commitment; free access is a trial."
+  },
+  "artisan": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.artisan.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Team, Scale and Enterprise packages priced through sales."
+  },
+  "audiocraft": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/facebookresearch/audiocraft"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Downloadable code and research weights without a subscription; license restrictions apply to weights."
+  },
+  "autogen": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://microsoft.github.io/autogen/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Downloadable agent framework; third-party model and infrastructure usage costs excluded."
+  },
+  "autoreel": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.autoreelapp.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Homepage confirms two watermarked videos per month on Free; paid plans also offered."
+  },
+  "avoma": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.avoma.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Recording requires a paid seat after trial; viewer seats alone are free."
+  },
+  "bardeen": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.bardeen.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Pricing page states recurring free credits alongside paid credit plans."
+  },
+  "basedash": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.basedash.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Startup subscription plus AI usage; free access is a 14-day trial."
+  },
+  "beamery": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://beamery.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise talent platform offered through sales; paid classification inferred from commercial offering."
+  },
+  "bill": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.bill.com/product/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Spend and Expense has a zero-cost plan alongside paid accounts-payable plans."
+  },
+  "booke-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://booke.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "AI bookkeeper priced per business per month."
+  },
+  "brex": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.brex.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Essentials is zero cost; Premium has a per-user subscription."
+  },
+  "brisk-teaching": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.briskteaching.com/plans"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free individual teacher plan and paid Premium school/district offering."
+  },
+  "browser-use": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://browser-use.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free local harness and paid hosted browser/agent usage."
+  },
+  "campfire": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://campfire.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Sales-led enterprise accounting platform; paid classification inferred from commercial offering."
+  },
+  "chatwoot": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.chatwoot.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Hacker plan is zero cost alongside paid support plans."
+  },
+  "cinc": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.cincpro.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Paid AI add-on and custom platform packages."
+  },
+  "claude-agent-sdk": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://code.claude.com/docs/en/agent-sdk/overview"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "No separate SDK charge; authentication requires an eligible subscription or separately billed API/model access."
+  },
+  "clearbrief": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://clearbrief.com/#pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Annual licensed subscriptions and custom enterprise contracts."
+  },
+  "cline": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://cline.bot/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free open-source client plus paid vendor inference and enterprise options; local/provider costs vary."
+  },
+  "cloze": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://pubsub.cloze.com/app/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Permanent free contacts/email plan remains after trial; paid Pro and Business plans add features."
+  },
+  "cocounsel-legal": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial plans with free trial, not an ongoing free product plan."
+  },
+  "cognigy": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.cognigy.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise contact-center platform sold through consultation; paid classification inferred."
+  },
+  "cognism": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.cognism.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Standard/Pro packages with tailored pricing; sample data is not an ongoing free plan."
+  },
+  "collov-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://collov.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Paid photo-credit subscriptions; introductory trial is not an ongoing free tier."
+  },
+  "comfyui": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://comfy.org/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free local ComfyUI with paid hosted Comfy Cloud plans."
+  },
+  "conker": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.conker.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Homepage calls core product a free quiz maker; pricing page and purchase terms indicate paid offerings."
+  },
+  "continue": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://continue.dev"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor states the open-source codebase remains freely available after service changes."
+  },
+  "cosupport-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://cosupport.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Usage-based charges after introductory free pilot responses."
+  },
+  "coursebox": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.coursebox.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Ongoing Free plan with paid credit and branding upgrades."
+  },
+  "crewai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://crewai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free open-source framework alongside commercial enterprise platform."
+  },
+  "cube-software": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.cubesoftware.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Plans priced by custom quote."
+  },
+  "curipod": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://curipod.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Weekly-renewing free session allowance alongside school licenses."
+  },
+  "datarails": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.datarails.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Professional, Premium and Expert plans require tailored commercial quotes."
+  },
+  "deepscribe": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.deepscribe.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise oncology documentation deployment via demo; paid classification inferred."
+  },
+  "definely": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://clio.us.definely.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial license with seven-day trial; paid classification inferred from trial and licensing offer."
+  },
+  "diffit": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://web.diffit.me/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free teacher version remains available alongside annual school licenses."
+  },
+  "dify": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://dify.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free Community edition plus paid workspace subscriptions."
+  },
+  "digits": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://digits.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Accounting plans have monthly charges; free extra entities require a paid base plan."
+  },
+  "docling": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://docling.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Open-source document processing library available for local installation."
+  },
+  "docyt": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.docyt.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Pricing is a monthly charge per property."
+  },
+  "dragon-copilot": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.microsoft.com/licensing/guidance/Dragon-Copilot"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Per-user subscriptions or licensed pay-as-you-go consumption."
+  },
+  "drivetrain": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.drivetrain.ai/faq"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Fixed commercial plans with custom proposals; no self-service free trial."
+  },
+  "edcafe-ai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.edcafe.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Permanent Free tier plus paid teaching plans."
+  },
+  "education-copilot": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://educationcopilot.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free-forever plan and paid Pro subscription."
+  },
+  "eightfold-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://eightfold.ai/msa/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Official subscription agreement defines paid services and sales-order fees."
+  },
+  "eve-legal": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.eve.legal/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial legal platform offered through sales; paid classification inferred."
+  },
+  "findem": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.findem.ai/platform"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise platform sold through demos; trial agent access does not establish an ongoing free platform plan."
+  },
+  "fish-speech": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://fish.audio"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor offers personal-use free access and paid commercial plans."
+  },
+  "flint": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://flintk12.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free teacher classroom access and paid school plan."
+  },
+  "floqast": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.floqast.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial packages with sales-provided pricing."
+  },
+  "flowise": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://flowiseai.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Ongoing zero-cost hosted tier plus paid Starter and Pro tiers."
+  },
+  "flux": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://bfl.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor supplies downloadable model weights and paid generation APIs; license restrictions vary by model."
+  },
+  "fooocus": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/lllyasviel/Fooocus"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Official repository describes offline software as free and open source."
+  },
+  "forethought": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://forethought.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Platform fees plus outcome-based usage pricing."
+  },
+  "formative": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.formative.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor confirms an ongoing free plan and paid classroom/school upgrades."
+  },
+  "freddy-ai-freshworks": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.freshworks.com/freshdesk/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Freddy AI access is part of paid plans/add-ons; introductory session allocation is limited."
+  },
+  "freed-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.getfreed.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly clinician plans; free access is a trial."
+  },
+  "gc-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://gc.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Individual and team subscriptions; trial lasts 14 days."
+  },
+  "gem": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.gem.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Custom commercial packages; startup promotions are temporary free periods."
+  },
+  "gemini-cli": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/google-gemini/gemini-cli"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Apache-licensed CLI code is free; enterprise model/service access is charged separately."
+  },
+  "genie-ai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.genieai.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Permanent zero-cost plan plus Pro and other paid plans."
+  },
+  "glean": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.glean.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise knowledge platform purchased through sales; paid classification inferred."
+  },
+  "google-adk": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://adk.dev"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Open-source downloadable development framework; hosting and model usage are separate."
+  },
+  "goose": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://block.github.io/goose/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Open-source local agent framework; external model-provider usage is separate."
+  },
+  "gorgias": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.gorgias.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly platform and usage charges; free access is a trial."
+  },
+  "gpt4all": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://www.nomic.ai/gpt4all"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Downloadable local model application; Nomic's separate hosted platform pricing does not change this product's software cost."
+  },
+  "gradescope": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.gradescope.com/?locale=en"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free instructor signup and separately licensed institutional features."
+  },
+  "guru": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.getguru.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor specifies a tailored commercial platform and services engagement."
+  },
+  "harvey": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.harvey.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial legal platform offered through enterprise demos; paid classification inferred."
+  },
+  "heidi-health": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.heidihealth.com/en-us/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Ongoing Free tier with weekly allowance and paid clinician/team tiers."
+  },
+  "hellodata": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.hellodata.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly user pricing or portfolio contract; free access is a trial."
+  },
+  "hippocratic-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://hippocraticai.com/new-products/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor publishes hourly charges for its clinical AI models."
+  },
+  "hireez": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://hireez.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Solo subscription and enterprise pricing; introductory access is a trial."
+  },
+  "hirevue": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.hirevue.com/wp-content/uploads/2020/09/HireVue-Master-Service-Agreement.pdf"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Official service agreement describes paid subscriptions; category supported, current contract amounts not verified."
+  },
+  "hunyuan3d": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/Tencent-Hunyuan/Hunyuan3D-2"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Classification applies to downloadable code and model weights under Tencent license restrictions, not a guarantee of free hosted studio or unrestricted commercial use. Local compute costs separate."
+  },
+  "innovaccer": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://innovaccer.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise healthcare platform sold through sales; paid classification inferred."
+  },
+  "ironclad": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://ironcladapp.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Contracting platform priced through custom quotes."
+  },
+  "ivo-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.ivo.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise legal platform sold through demos; paid classification inferred."
+  },
+  "jacquard": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.jacquard.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial marketing platform sold through demos; free brand analysis is a promotional tool, not a platform plan."
+  },
+  "jan": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://www.jan.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor identifies Jan Desktop as free and open source."
+  },
+  "jirav": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.jirav.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Paid monthly accounting and planning packages."
+  },
+  "jupyter-ai": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/jupyterlab/jupyter-ai"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "BSD-licensed notebook extension; third-party agents/models may cost extra."
+  },
+  "kilo-code": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://kilo.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free/open-source client with paid team and enterprise plans; model usage is separate."
+  },
+  "kira-litera": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.litera.com/capabilities/review"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial contract-review platform sold through demos; paid classification inferred."
+  },
+  "knowt": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://knowt.com/plans?tab=teachers"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Basic free tier and paid Ultra/school subscriptions."
+  },
+  "kokoro": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/hexgrad/kokoro"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Downloadable Apache-licensed speech library; hardware costs excluded."
+  },
+  "kore-ai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.kore.ai/terms-of-service"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor terms explicitly describe free and paid service versions."
+  },
+  "kustomer": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.kustomer.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Tailored commercial pricing and pay-as-you-go communication charges."
+  },
+  "langchain": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.langchain.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free frameworks and free developer allowance with paid platform/team tiers."
+  },
+  "langflow": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://www.langflow.org"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor offers open-source local deployment and free cloud access; external model charges excluded."
+  },
+  "langgraph": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://www.langchain.com/langgraph"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor explicitly identifies the LangGraph library as free; LangSmith is a separate product."
+  },
+  "lattice-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://lattice.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Paid seats with a minimum annual agreement."
+  },
+  "leena-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://leena.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Annual employee licenses or platform-plus-usage pricing."
+  },
+  "legalon": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.legalontech.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Platform priced through quotes based on team size and capabilities."
+  },
+  "libretranslate": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://portal.libretranslate.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free self-hosted software and paid hosted API plans; server costs separate."
+  },
+  "listingai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.listingai.co/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free-forever entry plan retains preview functionality; subscriptions unlock repeat campaigns."
+  },
+  "litellm": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.litellm.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free self-hosted gateway plus paid enterprise features and support."
+  },
+  "livekit-agents": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://livekit.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free build tier and recurring session allowance alongside paid plans and usage."
+  },
+  "llama-cpp": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/ggml-org/llama.cpp"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "MIT-licensed local inference software without a subscription."
+  },
+  "llamaindex": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.llamaindex.ai"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Open-source tools and recurring free cloud credits with paid upgrades."
+  },
+  "lofty": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://lofty.com/price-packages"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial packages with quoted pricing and charged add-ons."
+  },
+  "luminance": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.luminance.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise contract platform sold through demos; paid classification inferred."
+  },
+  "luxury-presence": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.luxurypresence.com/plans-and-pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly platform fees and setup charge under annual agreements."
+  },
+  "magicschool": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.magicschool.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Forever-free teacher tier and paid individual/district plans."
+  },
+  "mastra": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://mastra.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free framework/Starter allowance and paid team/enterprise platform tiers."
+  },
+  "medius": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.medius.com/frequently-asked-questions/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial pricing based on business size, transaction volume and modules."
+  },
+  "meetgeek": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://meetgeek.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Permanent Basic transcription allowance plus paid Pro and Business plans."
+  },
+  "metaview": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.metaview.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Zero-cost monthly sourcing allowance and paid enterprise packages."
+  },
+  "mito": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.trymito.io"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor identifies free open-source edition plus paid Pro version."
+  },
+  "motion": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.usemotion.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Individual and team subscriptions; free access is a trial."
+  },
+  "nabla": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://help.nabla.com/en/articles/10692354"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Subscription required after 30-day trial."
+  },
+  "nooks": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.nooks.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Custom quote required for commercial access."
+  },
+  "notable-health": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.notablehealth.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise health-system platform offered through sales; paid classification inferred."
+  },
+  "numeric": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.numeric.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial plans tailored by transaction volume and seats."
+  },
+  "ollama": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://ollama.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free local model execution plus paid hosted inference and subscriptions."
+  },
+  "open-webui": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://github.com/open-webui/docs/blob/main/docs/license.mdx"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free self-hosted use under branding conditions with enterprise licensing."
+  },
+  "openai-agents-sdk": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/openai/openai-agents-python/blob/main/pyproject.toml"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "MIT SDK has no separate license charge; model API and infrastructure charges are separate."
+  },
+  "openhands": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.openhands.dev/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free self-hosted Agent Canvas plus paid Teams and Enterprise."
+  },
+  "outreach": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.outreach.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "License- and usage-based commercial plans with custom quotes."
+  },
+  "pandas-ai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://github.com/sinaptik-ai/pandas-ai/blob/main/LICENSE"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "MIT community code with separately licensed enterprise components; model and hosting costs separate."
+  },
+  "paradox-olivia": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.paradox.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise recruiting platform purchased through demos; paid classification inferred."
+  },
+  "paxton-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.paxton.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Individual subscriptions and firm plans; introductory trial lasts seven days."
+  },
+  "pencil": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://trypencil.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Paid self-service and enterprise tiers; free access is a trial."
+  },
+  "phenom": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.phenom.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial enterprise platform priced through RFP/sales process."
+  },
+  "pipecat": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.pipecat.ai/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free self-hosted framework and commercial managed Pipecat Cloud option."
+  },
+  "playground": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://playgroundai.com/design/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free design generation with refresh/wait limits and paid Pro credit tiers."
+  },
+  "playwright-mcp": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/microsoft/playwright-mcp"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Apache-licensed downloadable browser integration server."
+  },
+  "postiz": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://postiz.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free self-hosted edition plus paid cloud subscriptions; hosted trial alone is time-limited."
+  },
+  "puzzle": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://puzzle.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly accounting plans; free access is a trial."
+  },
+  "pydantic-ai": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://pydantic.dev/docs/ai/overview/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Open-source agent framework; optional Logfire and model-provider charges are separate products."
+  },
+  "qventus": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.qventus.com/wp-content/uploads/2024/10/Qventus_Report_KLAS-Emerging-Solution-Spotlight.pdf"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor-hosted product report describes annual subscription and implementation fees; supports model, not current amounts."
+  },
+  "ramp": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://ramp.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Zero-cost Free plan with paid Plus and Enterprise options."
+  },
+  "real-esrgan": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/xinntao/Real-ESRGAN"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "BSD-licensed downloadable restoration software."
+  },
+  "rechat": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://c21redwood.helpscoutdocs.com/article/288-getting-started-with-rechat"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Brokerage customer documentation identifies a monthly subscription, potentially reimbursed for eligible agents."
+  },
+  "reclaim-ai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://reclaim.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free-forever calendar tier with paid plans and usage upgrades."
+  },
+  "regie-ai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://regie.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free plan retains CRM features after introductory credits; paid tiers add usage."
+  },
+  "resemble-enhance": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/resemble-ai/resemble-enhance"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "MIT-licensed downloadable audio-enhancement software."
+  },
+  "resimpli": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://resimpli.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial subscription plans; free access is a 14-day trial."
+  },
+  "rillet": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.rillet.com/talk-to-sales"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Sales-quoted enterprise platform with implementation charges."
+  },
+  "robin-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://robinai.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial legal platform offered through demos; paid classification inferred."
+  },
+  "roo-code": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/RooCodeInc/Roo-Code"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Apache-licensed editor extension; external model charges excluded."
+  },
+  "salesloft": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.salesloft.com/see-it-live"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial sales platform sold through consultation; paid classification inferred."
+  },
+  "schoolai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://schoolai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Limited no-cost spaces renew annually alongside paid school access; vendor labels this access a Free Trial."
+  },
+  "screenshot-to-code": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://github.com/abi/screenshot-to-code"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "MIT local tool plus paid hosted service; local usage may require paid model APIs."
+  },
+  "scribeberry": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://scribeberry.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "After introductory unlimited use, free access continues at 20 uses monthly; paid plans expand access."
+  },
+  "seekout": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.seekout.com/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Paid monthly and annual seats; free access is a 14-day trial."
+  },
+  "seo-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://seo.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly website subscriptions; separate free utilities do not provide the main SEO platform."
+  },
+  "skyvern": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.skyvern.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free open-source deployment option plus paid hosted subscriptions."
+  },
+  "smolagents": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://huggingface.co/docs/smolagents/index"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Open-source Python library; Hugging Face platform fees do not apply to the library itself."
+  },
+  "sourcegraph": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://sourcegraph.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Enterprise annual contract; public code search is separate from the paid private-codebase product."
+  },
+  "sourcegraph-cody": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://sourcegraph.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Current Sourcegraph offering uses an enterprise contract; legacy Cody URL redirects to documentation."
+  },
+  "spellbook": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://spellbook.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Team licenses with personalized pricing; trial is seven days."
+  },
+  "spotlight-reporting": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.spotlightreporting.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial reporting plans; free access is a 14-day trial."
+  },
+  "stable-diffusion-webui": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Downloadable AGPL interface; model licensing and compute remain separate."
+  },
+  "stagehand": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/browserbase/stagehand/blob/main/README.md"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "MIT-licensed SDK; model API and optional Browserbase service costs are separate."
+  },
+  "stager-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://stagerai.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly photo subscriptions; ten introductory renders are a trial, not recurring free allowance."
+  },
+  "styldod": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.styldod.com/services"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Per-service paid orders with first-image trial."
+  },
+  "suki-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://app.suki.ai/technology-services-agreement"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Paid subscription orders; optional trial/free-access arrangements do not establish a permanent public free tier."
+  },
+  "sully-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.sully.ai/terms-of-service"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Subscription billing terms and commercial product offering; paid classification inferred, no public ongoing free tier verified."
+  },
+  "sunsama": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.sunsama.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor explicitly states there is no free-forever plan."
+  },
+  "supermaven": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://supermaven.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Permanent free coding tier and paid Pro/team options."
+  },
+  "surya": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.datalab.to/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Downloadable models plus recurring free hosted allowance and paid API/team usage."
+  },
+  "tana": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://tana.inc/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free-forever plan plus paid team subscriptions."
+  },
+  "taskade": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.taskade.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Ongoing Free plan and paid plans with expanded integrations and credits."
+  },
+  "teachbetter-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://teachbetter.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Teacher/student subscriptions; free access lasts 14 days."
+  },
+  "teachmate": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.teachmate.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Permanent basic free option and paid Pro/school plans."
+  },
+  "tennr": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.tennr.com/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial healthcare operations platform sold through sales; paid classification inferred."
+  },
+  "textio": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.textio.com"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Vendor offers trial accounts and commercial business packages."
+  },
+  "tipalti": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://tipalti.com/en-uk/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Subscription and transaction-based pricing."
+  },
+  "tldraw-make-real": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://tldraw.dev/blog/make-real-the-story-so-far"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Public prototype uses the user's own model API key without a separate tool subscription; model charges and SDK production licensing are separate. Repository is now archived."
+  },
+  "tortus-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://tortus.ai/wp-content/uploads/2024/06/Subscriber-Tortus-Terms-and-Conditions.pdf"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Subscriber agreement describes payment obligations; supports commercial model, not current amounts."
+  },
+  "trolto": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://trolto.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly subscriptions after a seven-day trial."
+  },
+  "twee": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://twee.com/terms-of-service"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Terms explicitly describe free and paid subscription tiers."
+  },
+  "unstructured": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://unstructured.io/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free open-source library plus paid managed processing; hosted free credits are introductory."
+  },
+  "upscayl": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://upscayl.org"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free local desktop application and paid cloud service."
+  },
+  "ux-pilot": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://uxpilot.ai/ai-instructions"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Official product facts state recurring daily free credits and paid plans."
+  },
+  "vercel-ai-sdk": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://ai-sdk.dev"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Open-source application toolkit; hosting and model usage are separate costs."
+  },
+  "vic-ai": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.vic.ai/request-demo"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial finance platform sold through discovery meetings; paid classification inferred."
+  },
+  "vllm": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://docs.vllm.ai/en/latest/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Open-source local inference-serving engine; compute costs excluded."
+  },
+  "wan": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/Wan-Video/Wan2.2"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Classification applies to downloadable open model and inference code, not the hosted website or later commercial models. Local compute costs separate."
+  },
+  "warp": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://www.warp.dev/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Zero-cost terminal tier plus paid monthly agent plans."
+  },
+  "wayground": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://help.wayground.com/support/solutions/articles/158000404038-wayground-starter-basic-plan"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free Starter plan with restricted features and premium upgrades."
+  },
+  "whisper": {
+    "model": "free",
+    "price": "$",
+    "sources": [
+      "https://github.com/openai/whisper"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Code and model weights are downloadable under the MIT license."
+  },
+  "workable": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.workable.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial recruiting/HR packages with a free trial."
+  },
+  "yellow-ai": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://yellow.ai/pricing/"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free tier includes a monthly chat allowance; expanded use and enterprise features are charged."
+  },
+  "ylopo": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.ylopo.com/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Commercial real-estate platform with customized pricing."
+  },
+  "zed": {
+    "model": "freemium",
+    "price": "$$",
+    "sources": [
+      "https://zed.dev/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Free-forever Personal editor plus paid Pro and Business tiers."
+  },
+  "zeni": {
+    "model": "paid",
+    "price": "$$$",
+    "sources": [
+      "https://www.zeni.ai/pricing"
+    ],
+    "checked_on": "2026-11-08",
+    "basis": "Monthly bookkeeping packages and custom enterprise pricing."
+  }
+}
