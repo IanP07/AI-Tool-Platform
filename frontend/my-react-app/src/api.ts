@@ -1,6 +1,6 @@
 export type Tool = { id: string; name: string; mark: string; color: string; category: string; tagline: string; description: string; rating: number; reviews: number; price: number; priceLabel: string; free: boolean; tags: string[]; features: string[]; best: string; caveat: string; url: string }
 export type Review = { id: number; tool_id: number; rating: number; title: string; date: string; description: string }
-const base = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/$/, '')
+const base = (import.meta.env.BACKEND_BASE_URL || '/api').replace(/\/$/, '')
 export async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`${base}${path}`, { ...init, headers: { 'Content-Type': 'application/json', ...init?.headers }, signal: init?.signal ?? AbortSignal.timeout(90000) })
   if (!response.ok) {
