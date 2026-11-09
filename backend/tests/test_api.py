@@ -81,6 +81,13 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(len(self.client.get('/get-reviews/1').json()), 2)
         detail = self.client.get('/tool/1').json()
         self.assertEqual(detail['id'], 1)
+        self.assertEqual(detail['community_rating'], 4)
+        self.assertEqual(detail['review_count'], 2)
+        catalog = self.client.get('/tools?limit=2').json()['tools']
+        self.assertEqual(catalog[0]['community_rating'], 4)
+        self.assertEqual(catalog[0]['review_count'], 2)
+        self.assertEqual(catalog[1]['community_rating'], 0)
+        self.assertEqual(catalog[1]['review_count'], 0)
         self.assertEqual(sorted(r['rating'] for r in self.client.get('/get-reviews/1').json()), [3, 5])
         for changes, status in [({'rating': 6}, 422), ({'title': '   '}, 422), ({'tool_id': 999}, 404)]:
             self.jev.reset_mock()
@@ -135,6 +142,8 @@ class ApiTests(unittest.TestCase):
             self.assertEqual(response.json()['text'], 'Try Alpha.')
             self.assertEqual([t['id'] for t in response.json()['tools']], [1])
             self.assertEqual(response.json()['tools'][0]['name'], 'Alpha')
+            self.assertEqual(response.json()['tools'][0]['community_rating'], 5)
+            self.assertEqual(response.json()['tools'][0]['review_count'], 1)
             payload = send.call_args.kwargs
             self.assertEqual(payload['input'][1:], messages)
             context = json.loads(payload['input'][0]['content'].split('\n', 1)[1])

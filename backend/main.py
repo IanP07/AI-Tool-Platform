@@ -67,7 +67,10 @@ def func(prompt=Body(...)):
     with engine.connect() as conn:
         context["tools"] = [dict(row) for row in conn.execute(
             text("""
-                SELECT * FROM tool
+                SELECT tool.*,
+                    COALESCE((SELECT AVG(rating) FROM review WHERE tool_id = tool.id), 0) AS community_rating,
+                    (SELECT COUNT(*) FROM review WHERE tool_id = tool.id) AS review_count
+                FROM tool
                 ORDER BY name, id
             """),
             {}
@@ -162,7 +165,10 @@ async def get_tools(
     with engine.connect() as conn:
         result = conn.execute(
             text("""
-                SELECT * FROM tool
+                SELECT tool.*,
+                    COALESCE((SELECT AVG(rating) FROM review WHERE tool_id = tool.id), 0) AS community_rating,
+                    (SELECT COUNT(*) FROM review WHERE tool_id = tool.id) AS review_count
+                FROM tool
                 ORDER BY name, id
                 LIMIT :limit OFFSET :offset
             """),
@@ -186,7 +192,10 @@ async def get_tool(id: int):
     with engine.connect() as conn:
         result = conn.execute(
             text("""
-                SELECT * FROM tool
+                SELECT tool.*,
+                    COALESCE((SELECT AVG(rating) FROM review WHERE tool_id = tool.id), 0) AS community_rating,
+                    (SELECT COUNT(*) FROM review WHERE tool_id = tool.id) AS review_count
+                FROM tool
                 WHERE id = :id
                 LIMIT 1
             """),
