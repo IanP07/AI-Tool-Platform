@@ -2,7 +2,7 @@
 
 ## CSV pricing edition
 
-`tools.csv` contains the same 470 tools with blank IDs and this column order:
+`tools.csv` contains 433 tools with blank IDs (37 entries flagged for unverified pricing were removed) and this column order:
 
 ```text
 id,name,price,tags,url,short_description,description,advantages,disadvantages
@@ -11,7 +11,7 @@ id,name,price,tags,url,short_description,description,advantages,disadvantages
 The CSV replaces symbolic prices with researched amounts and billing details. The target is the lowest paid plan, with any free tier noted. Monthly billing is preferred; annual commitments and monthly equivalents of annual or quarterly payments are explicitly labeled. Per-user fees, usage charges, one-time purchases, regional currencies, and sales quotes retain their actual units. Trials are distinguished from permanent free tiers. A free self-hosted license does not include hardware or third-party API costs.
 
 
-Research was performed November 8, 2026. `actual-pricing-research.json` records sources, notes, and verification status by the original JSON tool ID. **37 entries still need verification** because an amount, billing term, currency, current plan, or product availability could not be established reliably. Missing amounts are explicitly marked unavailable; tentative published figures are flagged. Browser rendering was unavailable, and several public pages returned loading placeholders. The dataset does not claim all 470 tools have a verified numeric monthly price.
+Research was performed November 8, 2026. `actual-pricing-research.json` records sources, notes, and verification status by the original JSON tool ID. **37 entries were excluded from the CSV because they still need verification** because an amount, billing term, currency, current plan, or product availability could not be established reliably. The full research file preserves unavailable amounts and tentative published figures for the excluded entries. Browser rendering was unavailable, and several public pages returned loading placeholders. The dataset does not claim all 470 tools have a verified numeric monthly price.
 
 The original `tools.json` retains its symbolic classification described below. Regenerating that JSON does not regenerate this separately researched CSV. Names, descriptions, tags, URLs, advantages, disadvantages, row order, and blank CSV IDs are preserved.
 

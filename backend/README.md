@@ -1,0 +1,53 @@
+# Toolkit API and frontend
+
+The frontend now loads the database catalog, individual tools and reviews through FastAPI. Recommendations use OpenRouter on the server and return database tools, so recommendation links and directory links share the same detail route.
+
+## Run locally
+
+From `backend/`:
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+# Fill in DATABASE_URL and OPENROUTER_API_KEY in .env.
+uvicorn main:app --reload --host 127.0.0.1 --port 8000
+```
+
+Use the existing database with `tool` and `review` tables. The catalog expects database-generated integer tool IDs and the CSV fields `name`, `price`, `tags`, `url`, `short_description`, `description`, `advantages`, and `disadvantages`. Reviews use `id`, `tool_id`, `rating`, `title`, `date`, and `description`. This change does not import the CSV or migrate the database.
+
+In another terminal, from `frontend/my-react-app/`:
+
+```sh
+npm install
+npm run dev
+```
+
+Restart an already-running Vite server to load the new proxy configuration. `/api/*` proxies to `http://127.0.0.1:8000/*`. Override the target using `API_PROXY_TARGET` in the frontend's `.env` when necessary.
+
+For production, route `/api/*` to FastAPI with the prefix removed, or set `VITE_API_BASE_URL` to the backend's public URL **before building**. For cross-origin deployments, add the frontend's exact origin to the comma-separated `FRONTEND_ORIGINS` backend setting. API keys and the database URL belong only in the backend environment.
+
+## Route contracts
+
+- `GET /tools?amount=100&offset=0`: catalog page, count, and `hasMore`. The frontend follows pages before applying search, category, saved, pricing, and sort controls.
+- `GET /tool/{id}`: tool details, `community_rating`, and `review_count`. These aggregates also appear on catalog rows. No reviews displays as unrated.
+- `GET /get-reviews/{tool_id}`: most recent reviews first.
+- `POST /add-review`: `{tool_id, rating, title, description}`. Returns the saved review; the frontend refreshes the tool's rating.
+- `POST /prompt`: `{messages: [{role: "user" | "assistant", content: "..."}]}`. Returns `{text, tools}`. Replaces the old hardcoded GET placeholder. The model receives catalog facts and conversation context; unknown recommended IDs are rejected. Missing configuration returns 503 and provider/malformed-output errors return 502. The frontend shows errors and a retry action, without demo recommendations.
+
+Prices remain the database's full text, including currency and billing qualifiers. The lowest-price sort extracts USD amounts where present and places nonnumeric/other-currency entries last rather than doing implicit currency conversions. Tags may be native arrays or JSON-encoded CSV strings.
+
+## Verify
+
+```sh
+# From backend/, with its virtual environment active:
+pip install httpx
+python -m unittest discover -s tests -v
+
+# From frontend/my-react-app/:
+node --test tests/api.test.mjs
+npm run build
+```
+
+Backend tests use an isolated SQLite database and a mocked OpenRouter response; they never write to the configured database or spend API credits. Frontend tests verify pagination, adapters, routing contracts, and failure propagation. A live PostgreSQL/OpenRouter/browser smoke test still requires configured services.
