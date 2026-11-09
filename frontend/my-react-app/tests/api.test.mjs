@@ -2,7 +2,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import { transformWithOxc } from 'vite'
-const source = (await readFile(new URL('../src/api.ts', import.meta.url), 'utf8')).replace('import.meta.env.VITE_API_BASE_URL', 'undefined')
+const source = (await readFile(new URL('../src/api.ts', import.meta.url), 'utf8')).replace('import.meta.env.BACKEND_BASE_URL', 'undefined')
 const { code: outputText } = await transformWithOxc(source, 'api.ts')
 const api = await import(`data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`)
 const raw = { id: 42, name: 'Example', tags: '["research","writing"]', price: 'Free; Pro USD 20/month', url: 'https://example.com', community_rating: '4.5', review_count: 2 }
