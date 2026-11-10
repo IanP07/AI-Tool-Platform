@@ -1,0 +1,12 @@
+name: Send POST Request
+
+on:
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  post_request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send HTTP POST
+        run: |
+            curl -X POST "https://backend-production-a73e.up.railway.app/update-tool-scores"
