@@ -1,7 +1,9 @@
 name: Send POST Request
 
 on:
-  workflow_dispatch: # Allows manual trigger
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: 
 
 jobs:
   post_request:
@@ -9,4 +11,5 @@ jobs:
     steps:
       - name: Send HTTP POST
         run: |
-            curl -X POST "https://backend-production-a73e.up.railway.app/update-tool-scores"
+          curl -X POST "https://backend-production-a73e.up.railway.app/update-tool-scores" \
+            -H "Content-Type: application/json"
